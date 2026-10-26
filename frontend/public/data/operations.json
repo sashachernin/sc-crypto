@@ -1,0 +1,54 @@
+{
+  "observed_at": "2026-10-26T08:45:15.673981+00:00",
+  "paused": false,
+  "worker_status": "Snapshot observation; live status available only through Linux CLI",
+  "queue": {
+    "QUEUED": 0,
+    "RUNNING": 0,
+    "COMPLETED": 0,
+    "FAILED": 0
+  },
+  "incidents": [],
+  "audit": [],
+  "settings": {
+    "provider": "kraken",
+    "synthetic": false,
+    "learning_mode": "auto_bounded",
+    "site_visibility": "public",
+    "private_access_verified": false,
+    "max_asset_allocation": "1.0",
+    "max_deployed": "1.0",
+    "start": "2026-10-28",
+    "end": "9999-12-31",
+    "participants": {
+      "researcher_a": {
+        "name": "Avery",
+        "role": "Fundamentals & catalysts"
+      },
+      "researcher_b": {
+        "name": "Morgan",
+        "role": "Momentum & price"
+      },
+      "manager": {
+        "name": "Casey",
+        "role": "Portfolio manager"
+      },
+      "analyst": {
+        "name": "Riley",
+        "role": "Research analyst"
+      }
+    },
+    "schedule": {
+      "Wednesday rollover": "09:35 America/New_York: sell, review, learn, research, buy",
+      "Daily valuation": "12:45 America/New_York, including weekends"
+    },
+    "active_memory_cap": 12,
+    "models": {
+      "researcher_a": "gpt-6.1-sol",
+      "researcher_b": "gpt-6.1-sol",
+      "manager": "gpt-6.1-sol",
+      "analyst": "gpt-6.1-sol"
+    }
+  },
+  "previous_delivery": null
+}

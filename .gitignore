@@ -1,0 +1,15 @@
+# This checkout also holds the Linux engine locally. Only the static site is tracked.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/.github/
+!/frontend/
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/*.tsbuildinfo
+*.log
+.env
+.env.*
