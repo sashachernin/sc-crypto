@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  FlaskConical,
   LayoutDashboard,
   CalendarRange,
   BookOpen,
   Activity,
 } from "lucide-react";
 import { manifest } from "@/lib/data";
+import CryptoMark from "@/components/crypto-mark";
 import "./globals.css";
 export const metadata: Metadata = {
   title: "AI Crypto Firm",
+  icons: { icon: "/crypto-mark.svg" },
   description: "The firm’s decisions, holdings and results.",
 };
 export default function RootLayout({
@@ -24,10 +25,8 @@ export default function RootLayout({
       <body>
         <div className="shell">
           <aside className="sidebar">
-            <Link href="/" className="brand">
-              <span className="brand-icon">
-                <FlaskConical size={23} />
-              </span>
+            <Link href="/" className="brand" aria-label="AI Crypto Firm home">
+              <CryptoMark />
               <span>AI Crypto Firm</span>
             </Link>
 
@@ -50,9 +49,10 @@ export default function RootLayout({
           </aside>
           <div className="workspace">
             <header className="topbar">
-              <span>
+              <Link href="/" className="topbar-brand" aria-label="AI Crypto Firm home">
+                <CryptoMark />
                 <strong>AI Crypto Firm</strong>
-              </span>
+              </Link>
             </header>
             <nav className="mobile-nav" aria-label="Mobile navigation">
               <Link href="/">Overview</Link>
