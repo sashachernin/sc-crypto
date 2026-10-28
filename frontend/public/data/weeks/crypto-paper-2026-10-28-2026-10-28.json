@@ -1,0 +1,645 @@
+{
+  "id": "crypto-paper-2026-10-28-2026-10-28",
+  "wednesday": "2026-10-28",
+  "status": "OPEN",
+  "label": "PAPER / SIMULATED",
+  "data": {
+    "research_scope": "kraken_usd_spot_crypto",
+    "discovery_screening": {
+      "BTC": "ELIGIBLE",
+      "HYPE": "ELIGIBLE",
+      "LINK": "ELIGIBLE",
+      "XLM": "ELIGIBLE"
+    },
+    "starting_equity": "1000.00000000",
+    "share_policy": "fractional_crypto_units",
+    "purchase_outcomes": [
+      {
+        "ticker": "HYPE",
+        "status": "FILLED",
+        "quantity": "12.42225531",
+        "cost": "999.99999959",
+        "unspent_allocation": "4.1E-7"
+      }
+    ],
+    "entry_cutoff": "2026-10-28T13:37:36.985891+00:00",
+    "risk_checks": [
+      "proposal membership",
+      "combined ticker concentration",
+      "deployment cap",
+      "cash arithmetic",
+      "quote freshness",
+      "calendar",
+      "ledger reconciliation"
+    ],
+    "current_equity": "998.00",
+    "current_pnl": "-2.00"
+  },
+  "proposals": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+      "run_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a",
+      "role": "researcher_a",
+      "ticker": "LINK",
+      "company": "Chainlink",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": 0.025,
+      "downside": -0.12,
+      "probability_profit": 0.55,
+      "confidence": 0.55,
+      "thesis": "LINK ranks first because documented institutional usage has an explicit, though limited, connection to token demand: Payment Abstraction converts service revenue into LINK held by the Reserve. The October 21 review reports further CCIP adoption and Reserve accumulation, while October 29 supplies an in-window attention catalyst. This supports a modest positive hypothesis for October 28–November 4, rather than a guaranteed announcement trade. Token utility and purchases are established mechanisms; positive tokenholder returns are uncertain. The annual release schedule can substantially offset Reserve demand.",
+      "catalysts": [
+        "2026-10-29: Link:NYC, announced in the October 21 quarterly review, provides a dated opportunity for institutional adoption updates; additional announcements are a hypothesis.",
+        "2026-10-28 through 2026-10-30: Scheduled legacy VRF v2 brownout tests migration readiness; successful handling could reduce operational uncertainty, while disruption would be negative."
+      ],
+      "risks": [
+        "Conference attention may already be priced in; no announcement or price response is guaranteed.",
+        "Official token releases run at 70 million LINK annually, but no exact seven-day tranche or verified circulating denominator was established.",
+        "Reserve purchases do not confer a dividend, redemption claim or ownership of enterprise revenue on LINK holders.",
+        "Legacy VRF migration can disrupt applications; oracle and smart-contract failures remain material risks.",
+        "A broad crypto selloff could overwhelm adoption news."
+      ],
+      "invalidation": "The event-driven thesis fails if Link:NYC is canceled or concludes without a concrete adoption or deployment update. Material oracle failures, an unresolved VRF migration disruption, or suspension of revenue-funded Reserve accumulation invalidate the operational/value-accrual thesis.",
+      "assumptions": [
+        "The engine confirms Kraken USD spot eligibility, completed-day volume, history and executable prices.",
+        "Broad crypto conditions remain sufficiently stable for protocol catalysts to influence returns.",
+        "Forecasts are subjective seven-day spot returns before trading costs; downside is a plausible adverse scenario, not a loss limit."
+      ],
+      "evidence_ids": [
+        "web-researcher_a-1",
+        "web-researcher_a-2",
+        "web-researcher_a-3",
+        "web-researcher_a-4"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+      "run_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a",
+      "role": "researcher_a",
+      "ticker": "XLM",
+      "company": "Stellar",
+      "rank": 2,
+      "max_allocation": "1",
+      "expected_return": 0.02,
+      "downside": -0.13,
+      "probability_profit": 0.53,
+      "confidence": 0.52,
+      "thesis": "XLM has two verifiable calendar catalysts: Meridian and the November 3 Bell testnet vote. Bell extends contract account functionality, permits smart contracts to verify post-quantum signatures, and prepares ledger timing for future improvements. These are technical capabilities rather than demonstrated incremental tokenholder cash flows. XLM's fee and minimum-balance utility gives adoption an indirect demand channel, but neither quantum-safe network signatures nor faster mainnet blocks arrive automatically with Bell. The seven-day upside case is attention and reduced implementation uncertainty, with modest conviction.",
+      "catalysts": [
+        "2026-10-28 through 2026-10-29: Meridian in Lisbon creates an in-window ecosystem showcase; only sessions after cutoff and subsequent reactions remain prospective.",
+        "2026-11-03 at 17:00 UTC: Scheduled Bell/Protocol 30 testnet upgrade vote. Mainnet voting is November 23 and falls outside this holding period."
+      ],
+      "risks": [
+        "Testnet approval is weaker economically than a mainnet deployment and may generate little trading demand.",
+        "XLM pays fees and satisfies balance requirements, but tokenized asset growth does not create a proportional claim on revenues for holders.",
+        "Low transaction fees limit direct token consumption; foundation distributions can increase circulating supply.",
+        "Protocol 30 changes address handling and ledger data; outdated integrations can fail.",
+        "Meridian can produce a sell-the-news response, and broad market risk dominates a short holding period."
+      ],
+      "invalidation": "The near-term upgrade thesis fails if the November 3 vote is postponed beyond the holding period, rejects activation, or produces a material unresolved testnet failure. A critical consensus vulnerability or significant mainnet interruption invalidates the reliability assumption.",
+      "assumptions": [
+        "The engine confirms Kraken USD spot eligibility, completed-day volume, history and executable prices.",
+        "The November 3 testnet vote remains scheduled as announced before cutoff.",
+        "No outcomes or announcements from Meridian after the cutoff are assumed.",
+        "Forecasts are subjective seven-day spot returns before costs; downside is an adverse scenario."
+      ],
+      "evidence_ids": [
+        "web-researcher_a-5",
+        "web-researcher_a-6",
+        "web-researcher_a-7",
+        "web-researcher_a-8"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+      "run_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b",
+      "role": "researcher_b",
+      "ticker": "HYPE",
+      "company": "Hyperliquid",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": 0.025,
+      "downside": -0.14,
+      "probability_profit": 0.55,
+      "confidence": 0.52,
+      "thesis": "Best relative-strength proposal among the assets examined. Calculations from reported completed daily closes through October 27 show HYPE gained 1.09% over seven days versus BTC losing approximately 2.69%, equivalent to a 3.89% rise in HYPE/BTC. Its $81.32 close exceeded the calculated 20-day SMA of $80.56. Sample standard deviation of 20 daily simple returns was 2.54%; this is measured historical variability, not a forecast. Reported October 27 global turnover was $603.88m. Interpretation: an improving but fragile recovery, with a modest positive seven-day expectation.",
+      "catalysts": [
+        "October 28, 2026, 18:00 UTC: scheduled FOMC decision could extend or reverse the recovery.",
+        "October 29, 2026: scheduled GDP and PCE releases could change risk appetite."
+      ],
+      "risks": [
+        "The rebound lacks expanding volume: October 27 reported turnover was approximately 26% below October 26.",
+        "Recovery remains close to its 20-day average and could fail abruptly.",
+        "Protocol exposure, token supply dilution and macro shocks can overwhelm price momentum.",
+        "Reported global turnover does not establish Kraken order-book depth; downside is a scenario, not a loss limit."
+      ],
+      "invalidation": "A completed UTC daily close below $76.35 invalidates the recovery thesis; alternatively, HYPE/BTC falling more than 4% below its entry ratio invalidates relative-strength persistence. These are research review triggers, not guaranteed exit prices.",
+      "assumptions": [
+        "Engine confirms an online Kraken USD spot pair, fresh execution data, 20 completed daily candles and qualifying last-completed-day USD volume.",
+        "The October 27 closing-price recovery persists through the holding period.",
+        "Forecast is a subjective gross spot return for October 28–November 4; trading costs reduce returns."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-1",
+        "web-researcher_b-2",
+        "web-researcher_b-3"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:2",
+      "run_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b",
+      "role": "researcher_b",
+      "ticker": "BTC",
+      "company": "Bitcoin",
+      "rank": 2,
+      "max_allocation": "1",
+      "expected_return": 0.012,
+      "downside": -0.09,
+      "probability_profit": 0.53,
+      "confidence": 0.56,
+      "thesis": "Liquidity-first alternative with weaker upside than HYPE. Reported October 27 close was $80,795; comparison with October 20's $83,028.15 implies a 2.69% weekly decline. The early October 28 technical snapshot reported RSI 45.7, ADX 17.4 and ATR equal to 2.35% of price, with price below its 20-day SMA. These third-party indicators describe a weak, choppy recovery rather than a stable uptrend. The qualitative case is that deep market liquidity and less extreme price variability offer a more defensible response to uncertain macro conditions.",
+      "catalysts": [
+        "October 28, 2026, 18:00 UTC: scheduled FOMC statement and subsequent press conference.",
+        "October 29, 2026: scheduled GDP and PCE releases."
+      ],
+      "risks": [
+        "Negative weekly momentum and a negative reported MACD histogram undermine trend stability.",
+        "A hawkish Fed surprise could break nearby support.",
+        "Conflicting website snapshots reduce precision; supplied benchmark and fresh engine quotes take precedence.",
+        "A full cash allocation remains exposed to concentrated crypto market risk."
+      ],
+      "invalidation": "A completed UTC daily close below $79,220 invalidates the range-recovery thesis. Failure to reclaim $82,000 by November 2 weakens the anticipated rebound. Neither condition guarantees an executable exit at that level.",
+      "assumptions": [
+        "Engine independently confirms Kraken USD spot eligibility, fresh prices and required history and volume.",
+        "Bitcoin retains its recent trading range through the macro announcements.",
+        "Forecast is subjective and gross of execution costs."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-2",
+        "web-researcher_b-3",
+        "web-researcher_b-4",
+        "web-researcher_b-5"
+      ]
+    }
+  ],
+  "decision": {
+    "reviewed_ids": [
+      "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_b:2"
+    ],
+    "allocations": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+        "amount": "1000.00000000",
+        "percent": "1",
+        "rationale": "Select HYPE for October 28–November 4: its positive completed-week performance versus falling BTC supports the clearest observed relative-strength thesis. Kraken volume of $8.56m supports eligibility. The live $80.39 quote weakens the reported moving-average breakout, so conviction is modest. Assuming additive adverse spread and slippage of 20 bps, simulated entry is $80.55078: buy 12.41452907 HYPE, rounded down to eight decimals. Costs and sub-cent rounding dust stay within the $1,000 allocation budget."
+      }
+    ],
+    "rejections": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+        "rationale": "LINK has a documented revenue-to-token demand mechanism and an October 29 event, but no concrete announcement is established. Its supplied price history shows persistent weakness, while Reserve demand may be offset by token releases and the VRF brownout adds operational risk. Its identical 2.5% subjective expected return does not outweigh HYPE's observed relative strength."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+        "rationale": "XLM's November 3 vote concerns testnet; the mainnet vote falls outside this holding period. Meridian attention and technical progress have an indirect, uncertain connection to token demand. Weak supplied price history, distribution risk and a lower subjective expected return make it less compelling than HYPE."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:2",
+        "rationale": "BTC offers substantially deeper supplied Kraken volume and a smaller analyst downside scenario, but weekly momentum remains negative and the reported technical readings describe a weak range recovery. Its 1.2% subjective expected return and lack of demonstrated relative strength provide a weaker seven-day upside thesis than HYPE."
+      }
+    ],
+    "retained_cash": "0",
+    "hold_cash": false,
+    "summary": "Casey reviewed both independent reports and all four proposals. Select eligible HYPE for a new simulated Wednesday October 28–Wednesday November 4 position, allocating the entire $1,000 budget including execution costs. HYPE's observed relative strength provides a more immediate seven-day thesis than LINK's speculative event response or XLM's testnet milestone, and stronger upside evidence than BTC's weak range recovery. Fresh pricing tempers confidence but does not establish either proposed invalidation condition. No prior position, prior outcomes or active learning lessons were supplied; there is no supported prior sale or performance lesson to record.",
+    "risk_considerations": [
+      "Full allocation creates concentrated spot exposure. HYPE's analyst downside scenario is 14%, not a maximum loss.",
+      "The seven-day thesis is persistence of relative strength through November 4; scheduled FOMC, GDP and PCE releases can reverse that strength.",
+      "Reported rebound turnover fell approximately 26%; the fresh quote is below the vendor's $80.56 moving average, weakening breakout confirmation.",
+      "A completed daily close below $76.35 or HYPE/BTC falling over 4% below its entry ratio triggers thesis review; neither guarantees an exit price or changes the scheduled holding period.",
+      "Protocol failures and token dilution can overwhelm momentum. Supplied research does not establish comprehensive incident clearance.",
+      "Kraken turnover establishes screening eligibility, not order-book depth. The simulated cost convention is an assumption, not a verified fill."
+    ],
+    "uncertainty": "Conviction is modest. Forecast probabilities and returns are subjective and uncalibrated. Vendor indicators differ from fresh Kraken pricing, and macro outcomes are unknown. Relative strength may fail despite a sound selection process; a profitable outcome would not by itself validate the thesis. Only supplied records were used."
+  },
+  "review": null,
+  "runs": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_a",
+      "role": "researcher_a",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 0,
+        "lesson_ids": [],
+        "recent_week_ids": [],
+        "cutoff": "2026-10-28T13:35:04.356706+00:00",
+        "estimated_tokens": 1497,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 481,
+          "overlay": 32,
+          "current": 175,
+          "recent": 1,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "a9e06ebbd5f6e9f3b434d32e89d5f1cadc5c1bed44eaaf630db871863c8de036",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_a, Avery. Focus on protocol adoption, token economics, supply unlocks, governance, ecosystem usage, security incidents and verifiable seven-day catalysts. Prefer protocol documentation, foundation releases, governance forums, explorers and primary announcements. Separate token utility from tokenholder value and measure unlock size against circulating supply when evidence permits.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty marke",
+      "research_summary": "Avery's independent discovery covered selected infrastructure assets beyond the largest coins, without claiming exhaustive coverage. For Wednesday October 28–Wednesday November 4, LINK ranks above XLM because revenue conversion supplies a clearer token-demand mechanism, although supply releases can offset purchases. XLM has a precise testnet vote but weaker direct value capture. SUI was excluded: trackers disagree on dates and recipient coverage, while its foundation describes the schedule as estimated. One tracker estimates 22,617,401 SUI against 4,118,270,447 circulating, approximately 0.55%; this is a tracker estimate, not a verified aggregate release. ZEC's reported November 5 upgrade and ENJ's November 9/16 upgrades fall outside the holding period; SHM's identified upgrade was already past. Security searches did not establish a comprehensive incident clearance; LINK's scheduled legacy VRF brownout is an operational risk, not evidence of an exploit. No active learning lessons or prior results were supplied. Candidate eligibility remains subject to the engine's independent market checks; no web quote is an execution price. Forecasts are judgmental, with substantial uncertainty, and max_allocation 1.0 denotes single-asset eligibility.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "LINK",
+        "XLM",
+        "SUI",
+        "ZEC",
+        "ENJ",
+        "SHM"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_a-1",
+          "url": "https://chain.link/blog/quarterly-review-q3-2026",
+          "title": "Chainlink Quarterly Review: Q3, 2026",
+          "published_at": "2026-10-21",
+          "finding": "The official review reports expanding CCIP usage, 1,543,330.47 LINK accumulated by the Reserve during Q3, and 6,047,498.3150 LINK held at quarter-end. It announces Link:NYC for October 29. Adoption and accumulation are issuer-reported; neither establishes a seven-day return."
+        },
+        {
+          "id": "web-researcher_a-2",
+          "url": "https://chain.link/blog/chainlink-reserve-strategic-link-reserve",
+          "title": "Introducing the Chainlink Reserve: Creating a Strategic LINK Token Reserve",
+          "published_at": "2025-08-07",
+          "finding": "Payment Abstraction converts onchain and offchain service revenue into LINK for the Reserve. Chainlink expected no withdrawals for multiple years, but this is an expectation rather than an irrevocable lock. The Reserve includes a withdrawal timelock and does not distribute revenue directly to tokenholders."
+        },
+        {
+          "id": "web-researcher_a-3",
+          "url": "https://chain.link/circulating-supply",
+          "title": "Chainlink Circulating Supply",
+          "published_at": null,
+          "finding": "The official page states a one-billion LINK cap and releases currently equal to 7% of total supply annually, or 70 million LINK. This is not 7% of circulating supply and does not establish an exact release during the proposed holding week."
+        },
+        {
+          "id": "web-researcher_a-4",
+          "url": "https://docs.chain.link/vrf",
+          "title": "Chainlink VRF Documentation",
+          "published_at": null,
+          "finding": "Official documentation schedules a 48-hour VRF v2 brownout for October 28–30, 2026, ahead of permanent legacy VRF shutdowns in November. Applications are instructed to migrate to v2.5. This is a planned service transition, not a reported security incident."
+        },
+        {
+          "id": "web-researcher_a-5",
+          "url": "https://stellar.org/blog/developers/bell-protocol-30-upgrade-guide",
+          "title": "Bell, Protocol 30 Upgrade Guide",
+          "published_at": "2026-10-20",
+          "finding": "Published October 20 and updated October 23, the guide schedules the testnet vote for November 3 at 17:00 UTC and mainnet vote for November 23. It lists released infrastructure and SDK versions and warns that old raw-ledger decoders require updated definitions."
+        },
+        {
+          "id": "web-researcher_a-6",
+          "url": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar",
+          "title": "Introducing Bell, Protocol 30 on Stellar",
+          "published_at": "2026-10-20",
+          "finding": "Bell proposes muxed contract addresses, ML-DSA signature verification inside smart contracts, and millisecond ledger timing. It does not replace network transaction signatures with post-quantum signatures or itself deliver faster blocks. Activation depends on validator approval."
+        },
+        {
+          "id": "web-researcher_a-7",
+          "url": "https://meridian.stellar.org/",
+          "title": "Meridian 2026",
+          "published_at": null,
+          "finding": "The official event site schedules Meridian for October 28–29, 2026 in Lisbon, with institutional finance and ecosystem presentations. The schedule establishes an attention opportunity, not a guaranteed partnership announcement or adoption outcome."
+        },
+        {
+          "id": "web-researcher_a-8",
+          "url": "https://stellar.org/learn/lumens",
+          "title": "Stellar Lumens",
+          "published_at": null,
+          "finding": "XLM is required for transaction fees and minimum balances. Protocol inflation ended in 2019 and total supply is approximately 50 billion. Foundation-held tokens can enter public markets. The page contains apparently stale circulation figures, which were excluded from current supply calculations."
+        },
+        {
+          "id": "web-researcher_a-9",
+          "url": "https://www.sui.io/token-schedule",
+          "title": "SUI Token Supply and Schedule",
+          "published_at": null,
+          "finding": "Sui specifies a ten-billion-token cap and describes future circulation tranches as estimates influenced by foundation deployment for ecosystem support. Its schedule therefore does not independently validate a precise tracker-reported early-November unlock."
+        },
+        {
+          "id": "web-researcher_a-10",
+          "url": "https://app.tokenomics.com/tokenomics/sui/unlocks",
+          "title": "SUI Token Unlock Schedule & Vesting",
+          "published_at": null,
+          "finding": "The tracker estimates 22,617,401 SUI released November 3 and reports 4,118,270,447 circulating in October. Dividing yields approximately 0.55% of circulation. Other discovery results use different dates and recipient coverage, so this estimate was not treated as a settled aggregate unlock."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 4,
+        "calls": [
+          {
+            "type": "search",
+            "queries": [
+              "crypto October 2026 October 28 November 2026 network upgrade token mainnet governance",
+              "site.chain.link October 2026 staking",
+              "crypto token unlock November 1 2026 SUI"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.stellar.org October 2026 Bell October 2026 XLM network usage",
+              "site.chain.link \"October\" \"2026\" \"Reserve\"",
+              "crypto \"October 30, 2026\" mainnet upgrade",
+              "crypto \"November 2, 2026\" upgrade"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.chain.link \"Link:NYC\" \"October 29\" \"2026\"",
+              "site.stellar.org \"Meridian 2026\" \"October 28\"",
+              "site.chain.link \"circulating supply\" \"7%\" LINK",
+              "site.stellar.org lumens supply inflation ended XLM"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.chain.link security incident October 2026 Chainlink",
+              "site.stellar.org security incident October 2026 Comet",
+              "site.sui.io token schedule circulating supply November 2026",
+              "site.chain.link \"Reserve\" \"withdrawals\" \"2025\""
+            ]
+          }
+        ],
+        "event_stream_sha256": "e7547838a1207dcc664f7a8734605bef73ad6fb80e9fcca73a043188ebbde5d2",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:researcher_b",
+      "role": "researcher_b",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 0,
+        "lesson_ids": [],
+        "recent_week_ids": [],
+        "cutoff": "2026-10-28T13:35:04.356706+00:00",
+        "estimated_tokens": 1495,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 479,
+          "overlay": 32,
+          "current": 175,
+          "recent": 1,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "969764ab13f9b90cce18bf46d8be5dfcf25d78eed1abcfd3b8bf204ea0c792aa",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_b, Morgan. Focus on price and USD volume, momentum, trend stability, volatility, liquidity, Bitcoin relative strength and market regime. Compare several assets and identify crowded or unstable moves. Distinguish actual measured indicators from qualitative impressions. Derivatives information may inform spot risk but never recommend a derivatives trade.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty market packet is an invitation to",
+      "research_summary": "Morgan / researcher_b: Independent web discovery compared large caps with HYPE, ZEC, AERO and smaller momentum names; coverage is selective. Holding window is Wednesday October 28 to Wednesday November 4, 2026. HYPE leads on calculated completed-day BTC relative strength; BTC ranks second for liquidity and lower reported range volatility. ZEC's reported daily advance around 5% exceeded BTC's roughly 0.6% in an early snapshot, but this does not establish sustained relative strength. AERO's reported ATR/price of 9.14%, RSI 41.8 and price below its 20- and 50-day averages indicate an unstable rebound. XAN/APR appeared on sharply rising leaderboards, but undated intraday refreshes and incomplete historical verification precluded proposals. Crowding is a qualitative concern, not a measured positioning conclusion. The regime appears to be a broad rebound within weak weekly trends ahead of scheduled macro risk; differing breadth and dominance figures across sites prevent a precise regime score. HYPE statistics were calculated from third-party daily tables; BTC indicators are vendor-reported and were not independently reconstructed from Kraken candles. Global volume is not Kraken USD-pair volume. No execution price, spread or order-book depth was verified here; the engine must apply its executable-data screen. No active learning lessons or prior results were supplied. Forecast probabilities and downside scenarios are judgmental, uncalibrated estimates; losses can exceed the stated downside. No derivatives trade is proposed.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "ZEC",
+        "AERO",
+        "LINK",
+        "XAN",
+        "APR"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_b-1",
+          "url": "https://en.coinotag.com/cryptocurrencies/spot/HYPE",
+          "title": "Hyperliquid Price: HYPE Live Chart and Market Data | COINOTAG",
+          "published_at": null,
+          "finding": "The daily table through October 27 reports HYPE closing at $81.32 with $603.88m turnover, versus $80.44 on October 20. Calculations from that table give a seven-day return of 1.09%, 20-day SMA of $80.56 and sample standard deviation of 20 daily simple returns of 2.54%. October 27 turnover was 0.74 times October 26. These are global vendor data, not Kraken-specific execution evidence. Page snapshot displayed an October 28 01:02 UTC update; original publication time is unknown."
+        },
+        {
+          "id": "web-researcher_b-2",
+          "url": "https://basisdesk.news/news/crypto-market-close-october-27-2026",
+          "title": "Crypto market close, Oct. 27: Bitcoin edges up 0.8% to $80,795 | Basis Desk",
+          "published_at": null,
+          "finding": "The October 27 UTC close report gives BTC at $80,795, up 0.8% that day, after a $79,400–$81,150 range. It reports 28 of the top 50 assets advancing and 16 declining, consistent with mixed participation. The page labels publication October 28 but provides no reliable exact publication time."
+        },
+        {
+          "id": "web-researcher_b-3",
+          "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+          "title": "What to Look Out for in Economic Data This Week | Kiplinger",
+          "published_at": "2026-10-23T17:07:12Z",
+          "finding": "The pre-cutoff calendar schedules the October 28 FOMC statement at 2 pm Eastern and press conference at 2:30 pm. GDP and PCE releases are scheduled for October 29. These are prospective volatility catalysts; no release outcome is assumed."
+        },
+        {
+          "id": "web-researcher_b-4",
+          "url": "https://en.coinotag.com/cryptocurrencies/spot/BTC/technical-analysis",
+          "title": "Bitcoin Technical Analysis Today: Support, Resistance, RSI | COINOTAG",
+          "published_at": null,
+          "finding": "The October 28 06:13 UTC snapshot reports BTC daily RSI 45.7, ADX 17.4, negative MACD histogram and ATR $1,906, or 2.35% of price. Its 20-day SMA is $81,915. Vendor narrative labels conflict with some underlying bearish indicators, so the proposal uses the numeric readings cautiously. Update time is known; original publication timestamp is not."
+        },
+        {
+          "id": "web-researcher_b-5",
+          "url": "https://en.coinotag.com/cryptocurrencies/spot/BTC",
+          "title": "Bitcoin Price: BTC Live Chart and Market Data | COINOTAG",
+          "published_at": null,
+          "finding": "The historical daily table reports BTC's October 20 close at $83,028.15 and October 24 low at $79,220.74. Combining that close with the separately reported October 27 close produces a seven-day decline of 2.69%. The retrieved table ended October 26, so it does not independently validate October 27 volume."
+        },
+        {
+          "id": "web-researcher_b-6",
+          "url": "https://en.coinotag.com/cryptocurrencies/spot/AERO/technical-analysis",
+          "title": "Aerodrome Finance Technical Analysis Today | COINOTAG",
+          "published_at": null,
+          "finding": "The October 28 03:31 UTC snapshot reports AERO RSI 41.8, ATR/price 9.14%, and price below its 20- and 50-day averages. Shorter and longer timeframe assessments diverge. These numeric readings support treating its bounce as unstable, despite the page's composite bullish label."
+        },
+        {
+          "id": "web-researcher_b-7",
+          "url": "https://futureaitechx.com/crypto/daily-market-update-october-28-2026",
+          "title": "Crypto Market Daily Update — October 28, 2026 | FutureAITechX",
+          "published_at": null,
+          "finding": "The report's explicitly timed snapshot is October 28 06:52 Asia/Kathmandu, equivalent to 01:07 UTC. It reports BTC +0.60%, ETH +0.79%, SOL +0.32%, HYPE +3.87% and ZEC +5.12% over 24 hours. Reported global turnover was $20.97b for BTC, $627.36m for HYPE and $799.48m for ZEC. These comparisons measure one-day performance only; original publication time is unknown."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 5,
+        "calls": [
+          {
+            "type": "search",
+            "queries": [
+              "crypto market October 28 2026 Bitcoin",
+              "Kraken crypto top gainers October 28 2026"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "October 28 2026 HYPE ZEC AERO seven day crypto momentum volume",
+              "October 28 2026 crypto FOMC October 28 29 November 4"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.en.coinotag.com/cryptocurrencies/spot/BTC/technical-analysis \"Oct 28, 2026\"",
+              "site:en.coinotag.com/cryptocurrencies/spot/LINK/technical-analysis",
+              "site:en.coinotag.com/cryptocurrencies/spot/HYPE/technical-analysis",
+              "site:en.coinotag.com/cryptocurrencies/spot/AERO/technical-analysis"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site:en.coinotag.com/cryptocurrencies/spot/HYPE \"7d change\"",
+              "site:en.coinotag.com/cryptocurrencies/spot/ZEC \"7d change\" \"Oct\"",
+              "site:en.coinotag.com/cryptocurrencies/spot/AERO/technical-analysis \"RSI\" \"ATR\""
+            ]
+          },
+          {
+            "type": "search",
+            "query": "site:en.coinotag.com/cryptocurrencies/spot/BTC \"Oct 27, 2026\" \"Oct 20, 2026\" \"Historical\""
+          }
+        ],
+        "event_stream_sha256": "5c171999202925fcbddbe68c373fbc2e0ab18326f0c105ba291325e559bb4d45",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:manager",
+      "role": "manager",
+      "purpose": "DECISION",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v1",
+        "overlay_version": 0,
+        "lesson_ids": [],
+        "recent_week_ids": [],
+        "cutoff": "2026-10-28T13:37:36.985891+00:00",
+        "estimated_tokens": 8612,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 255,
+          "overlay": 32,
+          "current": 7864,
+          "recent": 1,
+          "older": 11,
+          "contract": 432
+        },
+        "reductions": []
+      },
+      "prompt_hash": "21429264e684e321edb8d9a58fdd169c35c646932a985d3aec9c88fe4706e710",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nFor this DECISION task, use only supplied records. Web browsing is disabled for this purpose.\nYou are manager, Casey, selecting one cryptocurrency for the PAPER / SIMULATED firm. Review both independent research reports and every proposal. Select exactly ONE eligible submitted proposal for a Wednesday-to-next-Wednesday holding period. Allocate the full available cash to that one proposal (amount=cash, percent=1, retained_cash=0), with execution costs included inside that budget. Fractional units round down to 8 decimals. Reject all other proposals with specific reasons; duplicate tickers from both researchers still require choosing only one proposal. The same crypto as last week is allowed, but the prior position is sold and reviewed first, and a new purchase is recorded.\n\nOnly choose tickers in eligible_discovered_tickers when provided. If no eligible proposal exists, hold cash and explain the data or research failure. Never force an unsupported purchase. Respect any stricter su",
+      "research_summary": "",
+      "abstention_reason": null,
+      "investigated_tickers": [],
+      "sources": [],
+      "web_search_mode": "disabled",
+      "web_activity": {
+        "completed_calls": 0,
+        "calls": [],
+        "event_stream_sha256": "7afcc1e86c346fdcdda42521037b2f9295ea4c4af5c8248f9d1e86bb6dc1f00a",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:entry",
+      "kind": "entry",
+      "provider": "kraken-public",
+      "cutoff": "2026-10-28T13:35:04.356706+00:00",
+      "evidence": []
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:discovery",
+      "kind": "discovery",
+      "provider": "kraken-public",
+      "cutoff": "2026-10-28T13:37:36.985891+00:00",
+      "evidence": [
+        {
+          "id": "discovery:BTC:2026-10-28T13:37:36.985891+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-10-28T13:37:34.545387+00:00",
+          "price": "80718.90000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:HYPE:2026-10-28T13:37:36.985891+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-10-28T13:37:35.309089+00:00",
+          "price": "80.390000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:LINK:2026-10-28T13:37:36.985891+00:00",
+          "ticker": "LINK",
+          "observed_at": "2026-10-28T13:36:57.365731+00:00",
+          "price": "11.624710",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:XLM:2026-10-28T13:37:36.985891+00:00",
+          "ticker": "XLM",
+          "observed_at": "2026-10-28T13:36:45.484401+00:00",
+          "price": "0.16996000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:entry-execution",
+      "kind": "entry-execution",
+      "provider": "kraken-public",
+      "cutoff": "2026-10-28T13:38:35.730222+00:00",
+      "evidence": [
+        {
+          "id": "entry:HYPE:2026-10-28T13:38:35.730222+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-10-28T13:38:33.733177+00:00",
+          "price": "80.340000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    }
+  ],
+  "fills": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:BUY:HYPE",
+      "ticker": "HYPE",
+      "quantity": "12.42225531",
+      "price": "80.50068000",
+      "fee": "0E-8",
+      "side": "BUY",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-10-28T13:38:33.733177+00:00",
+      "fill_time": "2026-10-28T13:38:33.733177+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "80.340000"
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "MARKET_PACKET",
+      "completed_at": "2026-10-28T13:35:06.987923+00:00"
+    },
+    {
+      "stage": "PURCHASES",
+      "completed_at": "2026-10-28T13:38:37.441318+00:00"
+    }
+  ],
+  "meeting_ids": []
+}

@@ -1,11 +1,11 @@
 {
-  "observed_at": "2026-10-26T08:45:15.673981+00:00",
+  "observed_at": "2026-10-28T13:38:38.328626+00:00",
   "paused": false,
   "worker_status": "Snapshot observation; live status available only through Linux CLI",
   "queue": {
     "QUEUED": 0,
-    "RUNNING": 0,
-    "COMPLETED": 0,
+    "RUNNING": 1,
+    "COMPLETED": 1,
     "FAILED": 0
   },
   "incidents": [],
@@ -50,5 +50,8 @@
       "analyst": "gpt-6.1-sol"
     }
   },
-  "previous_delivery": null
+  "previous_delivery": {
+    "snapshot_id": "crypto-paper-2026-10-28-r0",
+    "status": "VALIDATED"
+  }
 }

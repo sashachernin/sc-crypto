@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
-  "snapshot_id": "crypto-paper-2026-10-28-r0",
-  "source_revision": 0,
+  "snapshot_id": "crypto-paper-2026-10-28-r5",
+  "source_revision": 5,
   "experiment_id": "crypto-paper-2026-10-28",
   "label": "PAPER / SIMULATED",
   "synthetic": false,
-  "created_at": "2026-10-26T08:45:15.673981+00:00",
-  "source_cutoff": "2026-10-26T08:45:15.673981+00:00",
-  "valuation_time": "2026-10-26T08:45:15.673981+00:00",
+  "created_at": "2026-10-28T13:38:38.328626+00:00",
+  "source_cutoff": "2026-10-28T13:38:35.730222+00:00",
+  "valuation_time": "2026-10-28T13:38:35.730222+00:00",
   "next_expected_publication": "Every day at 12:45 America/New_York, plus Wednesday rollover results",
   "files": [
     {
@@ -18,26 +18,32 @@
     },
     {
       "path": "frontend/public/data/operations.json",
-      "sha256": "b2515ce3d2a4b8629ee8d89555932d4853cff673170d6822c70895c5a430ff46",
-      "bytes": 1382,
+      "sha256": "667ea1796e4327ae50926885f840142fe1ad8ed9fc8ffaa4481ca1510ce76e36",
+      "bytes": 1458,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/overview.json",
-      "sha256": "26eaf02ab03d71020ba38034ac9588cf641aacbe2770ec772cc202a39e699e4f",
-      "bytes": 768,
+      "sha256": "bf56e02b18044d1fd3951e11942874398b52f7879d50685469554e5044a89038",
+      "bytes": 1542,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/performance.csv",
-      "sha256": "e98806cc436107e951e4cb9fcc87dc6fc5bca985536c05808e9b4b4aa5378dd1",
-      "bytes": 31,
+      "sha256": "2b0e49b8eb86d0b0da9b01a8dcf119d63d1f4926d6e52c2a4b8b161319b9ea6c",
+      "bytes": 91,
+      "schema_version": "1"
+    },
+    {
+      "path": "frontend/public/data/weeks/crypto-paper-2026-10-28-2026-10-28.json",
+      "sha256": "daa21b5862819372d0b1d749beb6853e38d16db8eb4b607aa18a370685645ebd",
+      "bytes": 40842,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/weeks/index.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3,
+      "sha256": "d9bf315a53df4f574cf566f3e1589dd78827d3eaffff4d068b33e747b7b6f67b",
+      "bytes": 185,
       "schema_version": "1"
     }
   ]
