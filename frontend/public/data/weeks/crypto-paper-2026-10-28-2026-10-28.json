@@ -32,8 +32,8 @@
       "calendar",
       "ledger reconciliation"
     ],
-    "current_equity": "998.00",
-    "current_pnl": "-2.00"
+    "current_equity": "991.92",
+    "current_pnl": "-8.08"
   },
   "proposals": [
     {
@@ -610,6 +610,21 @@
           "ticker": "HYPE",
           "observed_at": "2026-10-28T13:38:33.733177+00:00",
           "price": "80.340000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:valuation:2026-10-28",
+      "kind": "valuation-2026-10-28",
+      "provider": "kraken-public",
+      "cutoff": "2026-10-28T16:45:04.937707+00:00",
+      "evidence": [
+        {
+          "id": "valuation:HYPE:2026-10-28T16:45:04.937707+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-10-28T16:44:46.672271+00:00",
+          "price": "79.850000",
           "redistribution": "metadata only; verify provider terms"
         }
       ]
