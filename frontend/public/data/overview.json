@@ -2,20 +2,20 @@
   "label": "PAPER / SIMULATED",
   "currency": "USD",
   "initial_cash": "1000.00",
-  "equity": "1043.47",
+  "equity": "1071.30",
   "cash": "0.00",
-  "invested_value": "1043.47",
+  "invested_value": "1071.30",
   "realized_pnl": "0.00",
-  "unrealized_pnl": "43.47",
-  "cumulative_pnl": "43.47",
-  "cumulative_return": "4.34694464500000",
+  "unrealized_pnl": "71.30",
+  "cumulative_pnl": "71.30",
+  "cumulative_return": "7.12952983444000",
   "monthly_pnl": "0.00",
   "rolling_four_week_pnl": "0.00",
   "target_monthly_profit": "100.00",
   "target_is_experimental": true,
   "completed_cycles": 0,
   "skipped_cycles": 0,
-  "valuation_time": "2026-11-02T17:45:04.816628+00:00",
+  "valuation_time": "2026-11-03T17:45:04.809175+00:00",
   "equity_series": [
     {
       "week": "Inception",
@@ -72,6 +72,14 @@
       "pnl": "0.00",
       "benchmark_equity": null,
       "drawdown": "-12.55447170823277017967283454"
+    },
+    {
+      "week": "crypto-paper-2026-10-28-2026-10-28",
+      "date": "2026-11-03",
+      "equity": "1071.30",
+      "pnl": "0.00",
+      "benchmark_equity": null,
+      "drawdown": "-10.22224456958970233306516492"
     }
   ],
   "positions": [
@@ -80,10 +88,10 @@
       "ticker": "HYPE",
       "quantity": "12.42225531",
       "basis": "1000.00",
-      "value": "1043.47",
+      "value": "1071.30",
       "status": "OPEN",
       "label": "PAPER / SIMULATED",
-      "valuation_time": "2026-11-02T17:45:00.184700+00:00"
+      "valuation_time": "2026-11-03T17:45:01.467293+00:00"
     }
   ],
   "fills": [
