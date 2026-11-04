@@ -2,20 +2,20 @@
   "label": "PAPER / SIMULATED",
   "currency": "USD",
   "initial_cash": "1000.00",
-  "equity": "1051.92",
+  "equity": "1043.40",
   "cash": "0.00",
-  "invested_value": "1051.92",
+  "invested_value": "1043.40",
   "realized_pnl": "54.03",
-  "unrealized_pnl": "-2.10",
-  "cumulative_pnl": "51.92",
-  "cumulative_return": "5.1924018545000",
+  "unrealized_pnl": "-10.62",
+  "cumulative_pnl": "43.40",
+  "cumulative_return": "4.3403986062500",
   "monthly_pnl": "54.03",
   "rolling_four_week_pnl": "54.03",
   "target_monthly_profit": "100.00",
   "target_is_experimental": true,
   "completed_cycles": 1,
   "skipped_cycles": 0,
-  "valuation_time": "2026-11-04T14:41:40.188821+00:00",
+  "valuation_time": "2026-11-04T17:45:04.716329+00:00",
   "equity_series": [
     {
       "week": "Inception",
@@ -88,6 +88,14 @@
       "pnl": "54.03",
       "benchmark_equity": "972.30",
       "drawdown": "-11.66951595602038079914186109"
+    },
+    {
+      "week": "crypto-paper-2026-10-28-2026-11-04",
+      "date": "2026-11-04",
+      "equity": "1043.40",
+      "pnl": "0.00",
+      "benchmark_equity": null,
+      "drawdown": "-12.56033789219629927594529364"
     }
   ],
   "positions": [
@@ -96,10 +104,10 @@
       "ticker": "ZEC",
       "quantity": "0.80000305",
       "basis": "1054.03",
-      "value": "1051.92",
+      "value": "1043.40",
       "status": "OPEN",
       "label": "PAPER / SIMULATED",
-      "valuation_time": "2026-11-04T14:41:40.056830+00:00"
+      "valuation_time": "2026-11-04T17:45:04.312294+00:00"
     }
   ],
   "fills": [
