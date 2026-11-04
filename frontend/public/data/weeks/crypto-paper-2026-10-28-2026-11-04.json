@@ -1,0 +1,697 @@
+{
+  "id": "crypto-paper-2026-10-28-2026-11-04",
+  "wednesday": "2026-11-04",
+  "status": "OPEN",
+  "label": "PAPER / SIMULATED",
+  "data": {
+    "research_scope": "kraken_usd_spot_crypto",
+    "discovery_screening": {
+      "BTC": "ELIGIBLE",
+      "HYPE": "ELIGIBLE",
+      "UNI": "ELIGIBLE",
+      "ZEC": "ELIGIBLE"
+    },
+    "starting_equity": "1054.02786657",
+    "share_policy": "fractional_crypto_units",
+    "purchase_outcomes": [
+      {
+        "ticker": "ZEC",
+        "status": "FILLED",
+        "quantity": "0.80000305",
+        "cost": "1054.02785847",
+        "unspent_allocation": "0.00000810"
+      }
+    ],
+    "entry_cutoff": "2026-11-04T14:40:14.556027+00:00",
+    "risk_checks": [
+      "proposal membership",
+      "combined ticker concentration",
+      "deployment cap",
+      "cash arithmetic",
+      "quote freshness",
+      "calendar",
+      "ledger reconciliation"
+    ],
+    "current_equity": "1051.92",
+    "current_pnl": "-2.10"
+  },
+  "proposals": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+      "run_id": "crypto-paper-2026-10-28-2026-11-04:researcher_a",
+      "role": "researcher_a",
+      "ticker": "ZEC",
+      "company": "Zcash",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": 0.025,
+      "downside": -0.2,
+      "probability_profit": 0.53,
+      "confidence": 0.56,
+      "thesis": "NU7 offers the clearest verified within-week protocol milestone found in this search. It has progressed from planning to released mainnet-supporting software, with activation fixed by block height. Faster confirmations improve ZEC's payment utility; the fee reserve temporarily reduces available supply while preserving daily issuance and the supply cap. Neither creates a contractual cash flow for holders. The speculative bridge is that successful activation attracts marginal payment demand and speculative buying during the holding week. Contrary evidence matters: completed research closes fell from $1,310.20 on October 28 to $1,218.48 on November 3, about 7%, despite November 3's rebound. This supports only a modest 2.5% expected return, barely better-than-even profit probability and substantial downside, rather than assuming technical progress produces appreciation.",
+      "catalysts": [
+        "November 5–6, 2026 estimated: NU7 mainnet activation at block 3,543,405. Supporting stable Zebra software was announced October 22; activation remained prospective at cutoff.",
+        "November 6–11, conditional on activation: initial production evidence of faster confirmations and operation of the fee reserve could reduce implementation uncertainty. No quantified adoption increase is established."
+      ],
+      "risks": [
+        "A widely announced upgrade may already be priced in and trigger selling after activation.",
+        "November 3 Foundation reporting describes miner performance complaints; released security fixes do not establish universal operator readiness.",
+        "The deployment specification warns that unsupported nodes can follow a pre-upgrade branch; remaining Sprout funds become unspendable.",
+        "Removing 60% of transaction fees from circulation is temporary reserve accounting, not a permanent burn or holder distribution; its economic size is unquantified.",
+        "Recent completed daily prices show sharp reversals. A 20% adverse scenario is plausible and is not a maximum possible loss; broader market stress or privacy-coin restrictions could overwhelm the catalyst."
+      ],
+      "invalidation": "Invalidate the event thesis if activation slips beyond November 11, a sustained consensus split or material exploit emerges, or major trading venues cannot resume normal ZEC transfers following activation. A daily close below the November 2 research low near $1,128 would contradict the proposed recovery; verify against engine candles before applying.",
+      "assumptions": [
+        "The engine confirms ZEC meets Kraken USD spot, liquidity and candle-history requirements.",
+        "NU7 activates within November 4–11 without a material consensus failure.",
+        "Improved settlement and upgrade attention attract some incremental ZEC demand; this remains a hypothesis.",
+        "Forecasts are subjective seven-day spot returns before execution costs, not statistically calibrated estimates."
+      ],
+      "evidence_ids": [
+        "web-researcher_a-1",
+        "web-researcher_a-2",
+        "web-researcher_a-3",
+        "web-researcher_a-4",
+        "web-researcher_a-5"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+      "run_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+      "role": "researcher_b",
+      "ticker": "HYPE",
+      "company": "Hyperliquid",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": 0.025,
+      "downside": -0.15,
+      "probability_profit": 0.54,
+      "confidence": 0.56,
+      "thesis": "Preferred cautiously for relative-strength persistence. Calculated from CoinLore aggregated completed daily closes, October 27–November 3: HYPE +4.87%, BTC -4.11%, implying HYPE/BTC +9.36%. Absolute trend is separate: November 3 close $85.31 exceeds my 20-close SMA $81.614 but sits below the vendor's approximately $85.70–85.85 SMA50. Volume confirmation is weak. CoinLore's November 4 daily update reports RSI 53.39. Fresh engine pricing below $81.614 would weaken the absolute-trend component; deterioration in HYPE/BTC would separately weaken relative strength. This supports modest conviction, with no assumed repeat of last week's gain.",
+      "catalysts": [
+        "November 6, 2026, 13:30 UTC: scheduled US employment report could support risk appetite if it reduces interest-rate pressure; direction is uncertain.",
+        "November 4–11: continuation of the observed relative-strength pattern is a hypothesis; no verified asset-specific scheduled catalyst was established."
+      ],
+      "risks": [
+        "November 3 close was approximately 5.4% below October 30: relative strength coexists with an absolute pullback.",
+        "Reported turnover fell from approximately $2.3bn on October 29 to $1.0bn on November 3; participation does not confirm a renewed breakout.",
+        "Vendor daily ATR is 5.3%; concentrated exposure can experience losses substantially beyond the forecast.",
+        "Prior simulated success is one observation and does not establish a persistent momentum advantage."
+      ],
+      "invalidation": "Absolute trend weakens below the computed $81.614 SMA20; a completed daily close below $78.69 invalidates support persistence. Relative strength weakens if fresh HYPE/BTC falls below 0.001100 versus November 3. Volume confirmation remains absent unless rising closes attract expanding completed-day turnover.",
+      "assumptions": [
+        "Engine confirms an online Kraken USD spot pair, fresh executable data, sufficient completed candles and last-day USD volume.",
+        "Bitcoin avoids a renewed breakdown during November 4–11.",
+        "Forecast is a subjective seven-day spot return before execution costs; downside is a plausible adverse scenario, not a maximum loss."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-1",
+        "web-researcher_b-2",
+        "web-researcher_b-3",
+        "web-researcher_b-10"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+      "run_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+      "role": "researcher_b",
+      "ticker": "UNI",
+      "company": "Uniswap",
+      "rank": 2,
+      "max_allocation": "1",
+      "expected_return": 0.02,
+      "downside": -0.18,
+      "probability_profit": 0.52,
+      "confidence": 0.51,
+      "thesis": "A less extended recovery alternative. On CoinLore completed daily closes, October 27–November 3 UNI gained 2.12%, with UNI/BTC gaining 6.49%. November 3 close $7.24 exceeded my 20-close SMA $7.1415, but this is a tentative recovery rather than an established breakout. CoinLore's November 4 daily update reports Bollinger width 12.31%, at the second historical percentile, and resistance around $7.50. Volume confirmation is missing. Require fresh engine pricing to preserve the moving-average recovery and separately assess relative strength; asynchronous vendor prices are not interchangeable with engine quotes.",
+      "catalysts": [
+        "November 6, 2026, 13:30 UTC: US employment release is a two-sided macro catalyst.",
+        "November 4–11: a sustained move through $7.50–7.58 could release the vendor-reported volatility compression; this is a conditional technical hypothesis."
+      ],
+      "risks": [
+        "November 3 turnover was about 51% below October 30 despite recovering prices.",
+        "Vendor RSI 49.23 is neutral; daily ATR 7.3% signals material spot risk.",
+        "Price remains below the vendor's approximately $7.93–7.95 SMA50, and volatility compression can resolve downward."
+      ],
+      "invalidation": "A daily close below $6.83 invalidates recovery support. Fresh pricing below the computed $7.1415 SMA20 weakens absolute trend; UNI/BTC below 0.00009332 weakens relative strength versus November 3. A move above $7.58 without turnover improving from November 3's $293m would leave breakout confirmation weak.",
+      "assumptions": [
+        "Engine independently verifies Kraken USD spot eligibility and executable liquidity.",
+        "Bitcoin stabilizes and UNI retains its recent recovery.",
+        "Forecast is subjective, before execution costs; downside is an adverse scenario rather than a loss limit."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-3",
+        "web-researcher_b-5",
+        "web-researcher_b-6",
+        "web-researcher_b-10"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+      "run_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+      "role": "researcher_b",
+      "ticker": "BTC",
+      "company": "Bitcoin",
+      "rank": 3,
+      "max_allocation": "1",
+      "expected_return": 0.01,
+      "downside": -0.08,
+      "probability_profit": 0.51,
+      "confidence": 0.5,
+      "thesis": "Lower-volatility fallback within the mandatory single-asset framework. CoinLore completed closes show October 27–November 3 BTC -4.11%; computed daily log-return sample volatility over 20 observations is 1.47%, versus HYPE 3.14%, UNI 3.99% and ZRO 6.47%. BTC is the relative-strength benchmark, not an outperformer. Absolute trend remains weak: supplied cutoff price $78,597.20 is below my 20-close SMA $80,404.40. Vendor daily ATR is 2.3%. Reported elevated turnover provides liquidity context but cannot be called bullish accumulation. The positive forecast depends on stabilization, with weaker upside evidence than HYPE or UNI.",
+      "catalysts": [
+        "November 6, 2026, 13:30 UTC: scheduled employment report can change rate expectations and crypto demand in either direction.",
+        "November 4–11: recovery toward $79,885–80,404 is a conditional mean-reversion hypothesis, without an established positive catalyst."
+      ],
+      "risks": [
+        "Completed-close seven-day momentum is negative; lower volatility does not establish positive expected returns.",
+        "The vendor's bullish composite conflicts with price below shorter moving averages.",
+        "Aggregate reported volume is inconsistent across vendors and cannot establish Kraken order-book depth."
+      ],
+      "invalidation": "A completed daily close below $75,115 invalidates the support-recovery hypothesis. Fresh price below $76,542 weakens support immediately. The supplied $78,597.20 benchmark remains below both the vendor $79,885 EMA20 and computed $80,404.40 SMA20; failing to reclaim these leaves absolute trend unconfirmed.",
+      "assumptions": [
+        "Engine confirms executable Kraken USD spot data and eligibility.",
+        "Recent support survives the November 6 employment release.",
+        "Forecast is a subjective seven-day return before costs, with an adverse downside scenario."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-3",
+        "web-researcher_b-4",
+        "web-researcher_b-10"
+      ]
+    }
+  ],
+  "decision": {
+    "reviewed_ids": [
+      "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:3"
+    ],
+    "allocations": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+        "amount": "1054.02786657",
+        "percent": "1",
+        "rationale": "Select eligible ZEC for November 4–11. NU7 has primary deployment specifications and released mainnet-supporting software, providing a concrete within-week milestone. Successful activation could attract marginal demand, although appreciation remains speculative. Its 2.5% gross forecast exceeds UNI and BTC; HYPE's fresh relative strength has weakened and its reported November 6 supply event adds uncertainty. Full allocation includes execution costs."
+      }
+    ],
+    "rejections": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+        "rationale": "HYPE remains above the research SMA20, but fresh HYPE/BTC is approximately 0.0010843, below the proposal's 0.001100 weakening threshold. Falling completed-day turnover and price below the reported SMA50 limit confirmation. Researcher A additionally flags an uncertain November 6 distribution maximum; scheduled tokens are not confirmed sales. These weaken its equal 2.5% gross forecast relative to ZEC's documented milestone. Last week's profit does not establish repeatability."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+        "rationale": "UNI's fresh $7.36810 price preserves its research SMA20 recovery and relative-strength threshold, but remains below $7.50–7.58 breakout resistance and the reported SMA50. Turnover confirmation is absent, compression has no assured direction, and the 2% gross forecast is lower than ZEC's despite an 18% adverse scenario. Its seven-day demand catalyst is less concrete."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+        "rationale": "BTC offers deeper reported Kraken liquidity and lower historical volatility, but $78,698.90 remains below the research EMA20 and SMA20. Negative completed-close momentum and an unconfirmed stabilization thesis provide weaker appreciation evidence. Its 1% gross forecast is the lowest; comparison-benchmark status does not justify selection."
+      }
+    ],
+    "retained_cash": "0",
+    "hold_cash": false,
+    "summary": "Casey selects researcher A's ZEC proposal for the PAPER / SIMULATED November 4–11 Wednesday holding period, allocating all $1,054.02786657 with costs inside the budget. The prior HYPE position is already sold and completed in the supplied record: $54.02786657 profit, or 5.4028%, produced the current cash. That favorable outcome does not validate a persistent momentum edge or optimal concentration. This decision records a fresh ZEC purchase allocation, not a carried position or an actual reconciled fill. ZEC offers the strongest documented within-week catalyst, while HYPE's fresh relative-strength test weakens, UNI lacks breakout confirmation and BTC remains below research trend averages. Successful NU7 activation could support demand, but technical utility alone does not establish price appreciation. Selection conviction is modest.",
+    "risk_considerations": [
+      "Both independent reports and all four submitted proposals were reviewed. All submitted tickers pass the supplied eligibility screening; ZEC's fresh tradable Kraken quote and approximately $29.64m reported USD volume support execution eligibility, without proving order-book depth.",
+      "NU7 timing depends on block height. Miner performance complaints, operator readiness, consensus divergence, exploits or disrupted transfers could defeat the thesis. Activation after November 11 would remove the intended within-week catalyst.",
+      "The upgrade is public information. ZEC's fresh quote is approximately 7.3% above the final supplied historical observation, increasing priced-in and sell-the-news risk. Faster blocks and temporary fee reserves do not guarantee incremental demand or holder cash flow.",
+      "The proposed 20% adverse scenario is not a maximum loss. Mandatory single-asset concentration creates portfolio exposure risk separately from the quality of the selection.",
+      "The November 6 employment release is a two-sided macro event. BTC weakness, privacy-coin restrictions or broader market stress could overwhelm successful activation.",
+      "Cost illustration conservatively treats the supplied 10 bps spread plus 10 bps slippage as 20 bps per side, with zero fees. A 2.5% gross forecast then implies approximately 2.09% net: 1.025 × 0.998 / 1.002 − 1. This is an expectation illustration, not a guaranteed return.",
+      "Under that explicit cost assumption, entry price is $1,307.53986 and provisional quantity is 0.80611528 ZEC, rounded down to eight decimals. The full cash budget includes costs; rounding dust is mechanical. Actual observation and reconciled fill determine final quantity.",
+      "Review at the next Wednesday exit, separating asset-price exposure from execution drag. Research invalidation conditions are monitoring evidence, not assumed automatic exits or permission to alter the fixed holding mandate."
+    ],
+    "uncertainty": "The 2.5% gross forecast, 53% profit probability and 0.56 confidence are subjective and uncalibrated. Activation timing, incremental demand and market reaction remain uncertain. Research and engine series differ and are not interchangeable. The records do not specify whether spread is charged fully or halved; sizing and net-return illustrations explicitly use the conservative full-spread assumption and require reconciliation under the execution model."
+  },
+  "review": null,
+  "runs": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_a",
+      "role": "researcher_a",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 1,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:0"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-04T14:37:12.076383+00:00",
+        "estimated_tokens": 2135,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 481,
+          "overlay": 414,
+          "current": 175,
+          "recent": 255,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "e2d95cc461853a9496d78d5e0af081a2c9f438b0ff73467652c087cda9a5d1df",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_a, Avery. Focus on protocol adoption, token economics, supply unlocks, governance, ecosystem usage, security incidents and verifiable seven-day catalysts. Prefer protocol documentation, foundation releases, governance forums, explorers and primary announcements. Separate token utility from tokenholder value and measure unlock size against circulating supply when evidence permits.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty marke",
+      "research_summary": "Avery/researcher_a independently searched live sources for the November 4–11 Wednesday-to-Wednesday paper holding period, including smaller protocol assets. Coverage was selective, not exhaustive. ZEC is the sole proposal because its dated upgrade has primary deployment and software-release support. Applied the active overlay by separating event stage, established utility, speculative weekly buying and contrary price evidence. Supplied quotes and candles were empty, so no supplied technical confirmation exists; only completed pre-cutoff web history informs the price discussion. Intraday November 4 prices and future outcomes were excluded. ENJ has a November 9 Relaychain milestone, but governance passage was not independently confirmed and the larger Matrixchain feature activation is November 16, outside the window. Existing ENJ fee-funding utility does not establish incremental weekly demand. HYPE's prior 5.4028% paper gain does not establish repeatability; a secondary November 2 report flags a November 6 scheduled maximum of 9.92m HYPE, reportedly 4.14% of circulating supply, while actual distributions remain uncertain. That ratio is reported, not independently reconstructed. No exhaustive absence-of-unlocks or security clearance is claimed. Forecasts and downside are judgmental scenarios. Eligibility for full allocation remains subject to the engine's executable-market checks; web prices are never execution prices.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "ZEC",
+        "ENJ",
+        "HYPE",
+        "LINK",
+        "XLM",
+        "UNI",
+        "ETH",
+        "AVAX",
+        "ENA"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_a-1",
+          "url": "https://zips.z.cash/zip-0259",
+          "title": "ZIP 259: Deployment of the NU7 Network Upgrade",
+          "published_at": null,
+          "finding": "Deployment specification sets NU7 mainnet activation at block 3,543,405. It specifies 25-second target spacing, removal of 60% of fees from circulation, unchanged supply cap and invalidation of version 4 transactions. It explicitly warns that unsupported software may follow a pre-NU7 branch. The document creation date is September 15; its current revision publication timestamp is unknown."
+        },
+        {
+          "id": "web-researcher_a-2",
+          "url": "https://forum.zcashcommunity.com/t/zebra-7-0-0-release/58442",
+          "title": "Zebra 7.0.0 Release",
+          "published_at": "2026-10-22T16:52:00Z",
+          "finding": "Foundation announcement identifies Zebra 7.0.0 as stable software supporting mainnet NU7. Daily ZEC issuance stays unchanged despite faster blocks. Fees enter a reserve for later reissuance, rather than permanent destruction. The release fixes seven security advisories and a testnet branch-sticking issue; operators must upgrade."
+        },
+        {
+          "id": "web-researcher_a-3",
+          "url": "https://forum.zcashcommunity.com/t/zf-engineering-update-october-20-november-2-2026/58823",
+          "title": "ZF Engineering Update: October 20 - November 2, 2026",
+          "published_at": "2026-11-03T16:45:00Z",
+          "finding": "The Foundation's November 3 update reconfirms released mainnet support and the planned activation height. It reports miner complaints about block-template construction, acceptance and relay performance, followed by an alpha release for miners. This is implementation-risk evidence, not proof that activation has failed."
+        },
+        {
+          "id": "web-researcher_a-4",
+          "url": "https://ca.investing.com/crypto/zcash/historical-data",
+          "title": "Zcash Price History",
+          "published_at": null,
+          "finding": "Historical table reports completed closes of $1,310.20 on October 28, $1,134.38 on November 2 and $1,218.48 on November 3; November 2's low is $1,127.61. These show adverse recent performance and large reversals. Only completed dates were used; dynamic current quotes were excluded."
+        },
+        {
+          "id": "web-researcher_a-5",
+          "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655",
+          "title": "NU7 Timeline",
+          "published_at": "2026-09-17T22:42:00Z",
+          "finding": "September announcement records ecosystem agreement on NU7's scope and a November 5 mainnet target following testnet and a final activation decision. This establishes that the future milestone was announced before cutoff; calendar timing remains subordinate to block height."
+        },
+        {
+          "id": "web-researcher_a-6",
+          "url": "https://enjin.io/changelog/fort-canning/",
+          "title": "Fort Canning Upgrade (Relaychain v1.8.0 / Matrixchain v1.4.1)",
+          "published_at": "2026-10-06",
+          "finding": "Official changelog schedules Relaychain runtime 1.8.0 for November 9 around 16:00 UTC at block 18,059,100 and Matrixchain runtime 1.4.1 for November 16. Both require governance approval. The Matrixchain milestone lies outside the proposed holding week."
+        },
+        {
+          "id": "web-researcher_a-7",
+          "url": "https://docs.enjin.io/guides/platform/managing-users/using-fuel-tanks",
+          "title": "Using Fuel Tanks",
+          "published_at": null,
+          "finding": "Primary developer documentation requires ENJ to fund fuel tanks that sponsor user transactions. This verifies an existing token-utility mechanism, but supplies no evidence that the November 9 upgrade will increase weekly fee spending or tokenholder value."
+        },
+        {
+          "id": "web-researcher_a-8",
+          "url": "https://www.kucoin.com/news/insight/HYPE/6ae82bccbbcb52000745818d",
+          "title": "This Week's Token Unlocks November 1–7, 2026",
+          "published_at": "2026-11-02T06:23:07",
+          "finding": "A timestamped secondary calendar reports up to 9.92m HYPE scheduled for November 6, equivalent to 4.14% of reported circulating supply. It explicitly distinguishes the scheduled maximum from confirmed circulation and reports much smaller tracked commitments. This is an uncertain supply-risk flag, not a verified sale forecast."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 6,
+        "calls": [
+          {
+            "type": "search",
+            "queries": [
+              "crypto November 2026 November 4 2026 token unlock protocol upgrade",
+              "site.blog.chain.link November 2026",
+              "site.hyperliquid.xyz HYPE assistance fund token buyback"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.z.cash NU7 November 2026 3543405",
+              "site.electriccoin.co November 2026 NU7",
+              "crypto protocol November 2026 November 5 November 10 upgrade mainnet governance",
+              "site.blog.chain.link October 2026 November 2026 staking reserve"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.enjin.io November 9 2026 Fort Canning upgrade",
+              "site.zcashfoundation.org Zebra 7.0.0 NU7 October 2026",
+              "site.blog.uniswap.org 2026 October November fees burn UNI"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.docs.enjin.io ENJ inflation 4.8927482 supply staking fuel tanks",
+              "site.enjin.io ENJ tokenomics inflation supply 2026",
+              "Zcash ZEC November 4 2026 October performance price NU7"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.forum.zcashcommunity.com \"November 3, 2026\" \"7.0.0\"",
+              "site.hyperliquid.gitbook.io hype token vesting core contributors November",
+              "site.enjin.io November 2026 Fort Canning referendum passed October 2026"
+            ]
+          },
+          {
+            "type": "open_page",
+            "url": "https://zips.z.cash/zip-0259"
+          }
+        ],
+        "event_stream_sha256": "822f3f95d30d53dbe9b97ba685a69722a56a2d81e269931966d44a2c6c0da6d5",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+      "role": "researcher_b",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 1,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:1"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-04T14:37:12.076383+00:00",
+        "estimated_tokens": 2125,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 479,
+          "overlay": 406,
+          "current": 175,
+          "recent": 255,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "82df7674ba440b14a7ba516d28de731423d075d1474a21a771be5d2950357004",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_b, Morgan. Focus on price and USD volume, momentum, trend stability, volatility, liquidity, Bitcoin relative strength and market regime. Compare several assets and identify crowded or unstable moves. Distinguish actual measured indicators from qualitative impressions. Derivatives information may inform spot risk but never recommend a derivatives trade.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty market packet is an invitation to",
+      "research_summary": "Morgan, researcher_b: independent web discovery compared large caps and smaller assets; coverage is selective. Holding window is November 4–11, 2026. Quantitative calculations use CoinLore aggregated USD daily closes through November 3, excluding November 4's incomplete candle and undated live page quotes. Seven-day returns compare October 27 with November 3; relative strength divides asset gross return by BTC gross return. SMA20 uses October 15–November 3; realized volatility is sample standard deviation of 20 daily log returns through November 3. These are calculations, while ATR/RSI are vendor-reported indicators. Exact publication times for mutable data pages are unknown. The timestamped 08:04 UTC discovery snapshot shows sharp rebounds in VVV and ZEC despite negative seven-day returns, suggesting unstable recovery rather than established leadership. ZRO had stronger completed-close weekly momentum (+11.90%) but 6.47% daily realized volatility and November 3 turnover well below October 30; rejected for instability. LIT and STX merit discovery follow-up but lack equally developed trend evidence here. Extreme FORTH/BLAST/CLANKER daily leaderboard moves were excluded from proposals because intraday timestamps and durable trend confirmation were inadequate. Crowding is a qualitative price-extension concern: positioning and funding were not measured. Overall regime is an uneven rebound with BTC below its computed SMA20, not a confirmed broad uptrend. Applied the active overlay by separating relative strength, absolute trend and turnover, with explicit fresh-price weakening conditions. Prior HYPE success does not raise probability estimates. All proposals have max_allocation 1.0 as mandate eligibility, subject to independent engine checks; vendor aggregate volume does not verify the Kraken last-completed-day $1m gate or execution depth. Forecasts are judgmental, uncalibrated estimates before costs; web prices are research inputs only.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "BTC",
+        "HYPE",
+        "UNI",
+        "ZRO",
+        "LIT",
+        "VVV",
+        "ZEC",
+        "PUMP",
+        "STX",
+        "ENA",
+        "FORTH",
+        "BLAST",
+        "CLANKER"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_b-1",
+          "url": "https://www.coinlore.com/coin/hyperliquid/historical-data",
+          "title": "Hyperliquid historical prices — CoinLore",
+          "published_at": null,
+          "finding": "Aggregated completed daily OHLCV through November 3 supports HYPE's calculated seven-day return and SMA20. November 3 close was $85.31 with approximately $1.0bn turnover; October 29 turnover was approximately $2.3bn. Historical observations are dated; page publication time is unknown."
+        },
+        {
+          "id": "web-researcher_b-2",
+          "url": "https://www.coinlore.com/coin/hyperliquid/technical-analysis",
+          "title": "Hyperliquid technical analysis — CoinLore",
+          "published_at": null,
+          "finding": "Daily section dated November 4 UTC reports RSI 53.39, ATR 5.3%, SMA50 approximately $85.70–85.85 and support $78.69. Different tables contain slightly different averages, warranting reconciliation. Only the dated daily section was used; hourly and undated live inputs were excluded."
+        },
+        {
+          "id": "web-researcher_b-3",
+          "url": "https://www.coinlore.com/coin/bitcoin/historical-data",
+          "title": "Bitcoin historical prices — CoinLore",
+          "published_at": null,
+          "finding": "Completed daily records through November 3 show BTC closing at $77,585 versus $80,909 on October 27. Reported November 3 volume is $107.5bn, materially different from Yahoo's approximately $22.4bn observation. This limits cross-vendor volume comparisons. The historical series supplies the common BTC denominator and volatility calculation."
+        },
+        {
+          "id": "web-researcher_b-4",
+          "url": "https://www.coinlore.com/coin/bitcoin/technical-analysis",
+          "title": "Bitcoin technical analysis — CoinLore",
+          "published_at": null,
+          "finding": "November 4 daily section reports RSI 38.81, ATR 2.3%, EMA20 $79,885 and EMA50 $80,123. Support levels include $76,542 and $75,115. The bullish composite should be qualified by price below shorter averages. Daily figures are vendor indicators rather than independently reconstructed measurements."
+        },
+        {
+          "id": "web-researcher_b-5",
+          "url": "https://www.coinlore.com/coin/uniswap/historical-data",
+          "title": "Uniswap historical prices — CoinLore",
+          "published_at": null,
+          "finding": "Completed UNI daily records show November 3 close $7.24 and $293m turnover versus October 27 close $7.09. October 30 turnover was $601.3m. These records support calculated returns, SMA20 and realized volatility; aggregate turnover is not Kraken-specific liquidity."
+        },
+        {
+          "id": "web-researcher_b-6",
+          "url": "https://www.coinlore.com/coin/uniswap/technical-analysis",
+          "title": "Uniswap technical analysis — CoinLore",
+          "published_at": null,
+          "finding": "November 4 daily section reports RSI 49.23, ATR 7.3%, Bollinger width 12.31% at the second percentile, upper band $7.58 and support $6.83. SMA50 is approximately $7.93–7.95. Compression identifies potential expansion, without establishing its direction."
+        },
+        {
+          "id": "web-researcher_b-7",
+          "url": "https://www.coinlore.com/coin/layerzero/historical-data",
+          "title": "LayerZero historical prices — CoinLore",
+          "published_at": null,
+          "finding": "Completed ZRO closes rose from $1.68 on October 27 to $1.88 on November 3. November 3 turnover was $59.8m versus $149.4m October 30. Calculations give +11.90% weekly return and 6.47% daily log-return volatility over 20 observations, supporting the instability concern."
+        },
+        {
+          "id": "web-researcher_b-8",
+          "url": "https://www.coinlore.com/coin/layerzero/technical-analysis",
+          "title": "LayerZero technical analysis — CoinLore",
+          "published_at": null,
+          "finding": "November 4 daily section reports ATR 10.1%, RSI 54.11 and ADX 19.38. These suggest large trading ranges with weak measured trend strength, qualifying ZRO's positive recent returns. No positioning-based crowding measure was obtained."
+        },
+        {
+          "id": "web-researcher_b-9",
+          "url": "https://coindesk.cc/services/gainers-losers",
+          "title": "Crypto gainers and losers — recorded November 4 snapshot",
+          "published_at": null,
+          "finding": "Opened snapshot explicitly dated November 4, 08:04 UTC reported VVV +14.38% daily but -1.54% weekly, ZEC +13.69% but -1.85%, LIT +10.02% weekly, STX +12.06% weekly and ENA -12.16% weekly. Used for selective discovery and rebound comparison. This domain is coindesk.cc; no affiliation with CoinDesk.com is assumed."
+        },
+        {
+          "id": "web-researcher_b-10",
+          "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+          "title": "What to Look Out for in Economic Data This Week — Kiplinger",
+          "published_at": "2026-10-30T14:24:32Z",
+          "finding": "Published before cutoff, the calendar schedules the October employment report for November 6 at 08:30 Eastern. It establishes a known two-sided macro event within the holding period; its eventual outcome is excluded."
+        },
+        {
+          "id": "web-researcher_b-11",
+          "url": "https://www.cryptomarkettoday.com/screen/top-crypto-gainers-today",
+          "title": "Top Crypto Gainers Today — CryptoMarketToday",
+          "published_at": null,
+          "finding": "November 4 leaderboard displayed extreme daily increases in FORTH, BLAST and CLANKER. Exact intraday observation time was unavailable, so figures were excluded from cutoff-sensitive calculations and used only to identify speculative discovery leads."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 8,
+        "calls": [
+          {
+            "type": "search",
+            "queries": [
+              "crypto market November 4 2026 bitcoin HYPE prices",
+              "cryptocurrency November 4 2026 top gainers"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "HYPE November 4 2026 price technical analysis moving average volume",
+              "Bitcoin November 4 2026 historical daily price volume November 3",
+              "Kraken HYPE USD historical data November 2026",
+              "Lighter LIT November 4 2026 price momentum"
+            ]
+          },
+          {
+            "type": "open_page",
+            "url": "https://www.coinlore.com/coin/hyperliquid/technical-analysis"
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.finance.yahoo.com/quote/HYPE-USD/history November 2026",
+              "site.coinlore.com/coin/bitcoin/technical-analysis \"Nov 4, 2026\"",
+              "site.coinlore.com/coin/uniswap/technical-analysis",
+              "site.coinlore.com/coin/layerzero/technical-analysis"
+            ]
+          },
+          {
+            "type": "open_page",
+            "url": "https://chartexchange.com/symbol/crypto-hypeusd/historical/?exchange=binanceus"
+          },
+          {
+            "type": "open_page",
+            "url": "https://www.coinlore.com/coin/bitcoin/historical-data"
+          },
+          {
+            "type": "search",
+            "query": "November 2026 FOMC November 4 November 11 economic calendar November 6 employment release 2026"
+          },
+          {
+            "type": "other"
+          }
+        ],
+        "event_stream_sha256": "6cc2fca2ae09b41034b0dae1158505bce68ebc18c45b14073bb011b2356cd03c",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:manager",
+      "role": "manager",
+      "purpose": "DECISION",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v1",
+        "overlay_version": 1,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:2"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-04T14:40:14.556027+00:00",
+        "estimated_tokens": 10017,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 255,
+          "overlay": 363,
+          "current": 8682,
+          "recent": 255,
+          "older": 11,
+          "contract": 432
+        },
+        "reductions": []
+      },
+      "prompt_hash": "5bf31a341a3fb8658e983224d492e42872c9a6ec822e62fb5fb36970923799d0",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nFor this DECISION task, use only supplied records. Web browsing is disabled for this purpose.\nYou are manager, Casey, selecting one cryptocurrency for the PAPER / SIMULATED firm. Review both independent research reports and every proposal. Select exactly ONE eligible submitted proposal for a Wednesday-to-next-Wednesday holding period. Allocate the full available cash to that one proposal (amount=cash, percent=1, retained_cash=0), with execution costs included inside that budget. Fractional units round down to 8 decimals. Reject all other proposals with specific reasons; duplicate tickers from both researchers still require choosing only one proposal. The same crypto as last week is allowed, but the prior position is sold and reviewed first, and a new purchase is recorded.\n\nOnly choose tickers in eligible_discovered_tickers when provided. If no eligible proposal exists, hold cash and explain the data or research failure. Never force an unsupported purchase. Respect any stricter su",
+      "research_summary": "",
+      "abstention_reason": null,
+      "investigated_tickers": [],
+      "sources": [],
+      "web_search_mode": "disabled",
+      "web_activity": {
+        "completed_calls": 0,
+        "calls": [],
+        "event_stream_sha256": "6b68d49df569afc56609ba6996f897a01f4f2725f981a6836e74dcce6c890ce0",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:entry",
+      "kind": "entry",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-04T14:37:12.076383+00:00",
+      "evidence": []
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:discovery",
+      "kind": "discovery",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-04T14:40:14.556027+00:00",
+      "evidence": [
+        {
+          "id": "discovery:BTC:2026-11-04T14:40:14.556027+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-04T14:40:13.433856+00:00",
+          "price": "78698.90000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:HYPE:2026-11-04T14:40:14.556027+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-11-04T14:40:05.117597+00:00",
+          "price": "85.330000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:UNI:2026-11-04T14:40:14.556027+00:00",
+          "ticker": "UNI",
+          "observed_at": "2026-11-04T14:40:13.861060+00:00",
+          "price": "7.36810",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:ZEC:2026-11-04T14:40:14.556027+00:00",
+          "ticker": "ZEC",
+          "observed_at": "2026-11-04T14:40:14.253834+00:00",
+          "price": "1304.93000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:entry-execution",
+      "kind": "entry-execution",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-04T14:41:40.188821+00:00",
+      "evidence": [
+        {
+          "id": "entry:ZEC:2026-11-04T14:41:40.188821+00:00",
+          "ticker": "ZEC",
+          "observed_at": "2026-11-04T14:41:40.056830+00:00",
+          "price": "1314.90000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    }
+  ],
+  "fills": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:BUY:ZEC",
+      "ticker": "ZEC",
+      "quantity": "0.80000305",
+      "price": "1317.52980000",
+      "fee": "0E-8",
+      "side": "BUY",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-04T14:41:40.056830+00:00",
+      "fill_time": "2026-11-04T14:41:40.056830+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "1314.90000"
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "MARKET_PACKET",
+      "completed_at": "2026-11-04T14:37:12.958417+00:00"
+    },
+    {
+      "stage": "PURCHASES",
+      "completed_at": "2026-11-04T14:41:40.867511+00:00"
+    }
+  ],
+  "meeting_ids": []
+}

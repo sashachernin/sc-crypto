@@ -2,20 +2,20 @@
   "label": "PAPER / SIMULATED",
   "currency": "USD",
   "initial_cash": "1000.00",
-  "equity": "1071.30",
+  "equity": "1051.92",
   "cash": "0.00",
-  "invested_value": "1071.30",
-  "realized_pnl": "0.00",
-  "unrealized_pnl": "71.30",
-  "cumulative_pnl": "71.30",
-  "cumulative_return": "7.12952983444000",
-  "monthly_pnl": "0.00",
-  "rolling_four_week_pnl": "0.00",
+  "invested_value": "1051.92",
+  "realized_pnl": "54.03",
+  "unrealized_pnl": "-2.10",
+  "cumulative_pnl": "51.92",
+  "cumulative_return": "5.1924018545000",
+  "monthly_pnl": "54.03",
+  "rolling_four_week_pnl": "54.03",
   "target_monthly_profit": "100.00",
   "target_is_experimental": true,
-  "completed_cycles": 0,
+  "completed_cycles": 1,
   "skipped_cycles": 0,
-  "valuation_time": "2026-11-03T17:45:04.809175+00:00",
+  "valuation_time": "2026-11-04T14:41:40.188821+00:00",
   "equity_series": [
     {
       "week": "Inception",
@@ -80,18 +80,26 @@
       "pnl": "0.00",
       "benchmark_equity": null,
       "drawdown": "-10.22224456958970233306516492"
+    },
+    {
+      "week": "crypto-paper-2026-10-28-2026-10-28",
+      "date": "2026-11-04",
+      "equity": "1054.03",
+      "pnl": "54.03",
+      "benchmark_equity": "972.30",
+      "drawdown": "-11.66951595602038079914186109"
     }
   ],
   "positions": [
     {
-      "id": "crypto-paper-2026-10-28-2026-10-28:HYPE",
-      "ticker": "HYPE",
-      "quantity": "12.42225531",
-      "basis": "1000.00",
-      "value": "1071.30",
+      "id": "crypto-paper-2026-10-28-2026-11-04:ZEC",
+      "ticker": "ZEC",
+      "quantity": "0.80000305",
+      "basis": "1054.03",
+      "value": "1051.92",
       "status": "OPEN",
       "label": "PAPER / SIMULATED",
-      "valuation_time": "2026-11-03T17:45:01.467293+00:00"
+      "valuation_time": "2026-11-04T14:41:40.056830+00:00"
     }
   ],
   "fills": [
@@ -108,6 +116,36 @@
       "fill_time": "2026-10-28T13:38:33.733177+00:00",
       "fill_model": "spread-slippage-v1",
       "raw_price": "80.340000"
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:SELL:HYPE",
+      "ticker": "HYPE",
+      "quantity": "12.42225531",
+      "price": "84.84996000",
+      "fee": "0E-8",
+      "side": "SELL",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-04T14:35:05.239056+00:00",
+      "fill_time": "2026-11-04T14:35:05.239056+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "85.020000",
+      "cost_basis_sold": "999.99999959",
+      "realized_pnl": "54.02786657"
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:BUY:ZEC",
+      "ticker": "ZEC",
+      "quantity": "0.80000305",
+      "price": "1317.52980000",
+      "fee": "0E-8",
+      "side": "BUY",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-04T14:41:40.056830+00:00",
+      "fill_time": "2026-11-04T14:41:40.056830+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "1314.90000"
     }
   ],
   "latest_meeting": null

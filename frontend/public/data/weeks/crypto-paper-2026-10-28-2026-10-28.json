@@ -1,7 +1,7 @@
 {
   "id": "crypto-paper-2026-10-28-2026-10-28",
   "wednesday": "2026-10-28",
-  "status": "OPEN",
+  "status": "COMPLETED",
   "label": "PAPER / SIMULATED",
   "data": {
     "research_scope": "kraken_usd_spot_crypto",
@@ -32,8 +32,61 @@
       "calendar",
       "ledger reconciliation"
     ],
-    "current_equity": "1071.30",
-    "current_pnl": "71.30"
+    "pnl": "54.03",
+    "pnl_precise": "54.02786657",
+    "ending_equity": "1054.03",
+    "exit_cutoff": "2026-11-04T14:35:05.063361+00:00",
+    "comparisons": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+        "ticker": "LINK",
+        "expected_return": 0.025,
+        "observed_return": -0.038639243473600635,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+        "ticker": "XLM",
+        "expected_return": 0.02,
+        "observed_return": -0.040939044481054364,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+        "ticker": "HYPE",
+        "expected_return": 0.025,
+        "observed_return": 0.05759422813782809,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-10-28:researcher_b:2",
+        "ticker": "BTC",
+        "expected_return": 0.012,
+        "observed_return": -0.027697354646805148,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      }
+    ],
+    "benchmark_return": "-0.0276973546468051472455645456",
+    "extended_holding": false,
+    "summary": "The completed PAPER / SIMULATED HYPE holding earned $54.02786657, or 5.4028%, taking $1,000 to rounded ending equity of $1,054.03. Selection succeeded within the supplied candidate set: HYPE rose while all three priced rejected alternatives declined. Its entry case rested on observed relative strength, despite weak volume confirmation and fresh pricing below the reported moving average. The outcome supports persistence over this window; it does not establish a breakout mechanism or a general momentum edge. Research quality was stronger than forecast precision: LINK and XLM had carefully documented mechanisms and dates but failed to deliver positive weekly returns, while BTC's range-recovery assumption was contradicted by supplied daily closes. Full deployment made the portfolio participate almost entirely in HYPE's move; retained cash contributed no material return. Recorded execution costs reduced the gain. Concentration was disclosed and mandated, so this profitable result cannot demonstrate optimal sizing. Three four-week process lessons improve catalyst-to-return justification, technical-signal reconciliation and cost-aware decision records without changing the mandate or numerical confidence thresholds.",
+    "learning_results": [
+      {
+        "id": "crypto-paper-2026-10-28-2026-10-28:patch:0",
+        "status": "ACTIVE",
+        "errors": []
+      },
+      {
+        "id": "crypto-paper-2026-10-28-2026-10-28:patch:1",
+        "status": "ACTIVE",
+        "errors": []
+      },
+      {
+        "id": "crypto-paper-2026-10-28-2026-10-28:patch:2",
+        "status": "ACTIVE",
+        "errors": []
+      }
+    ],
+    "review_status": "AVAILABLE"
   },
   "proposals": [
     {
@@ -225,7 +278,148 @@
     ],
     "uncertainty": "Conviction is modest. Forecast probabilities and returns are subjective and uncalibrated. Vendor indicators differ from fresh Kraken pricing, and macro outcomes are unknown. Relative strength may fail despite a sound selection process; a profitable outcome would not by itself validate the thesis. Only supplied records were used."
   },
-  "review": null,
+  "review": {
+    "summary": "The completed PAPER / SIMULATED HYPE holding earned $54.02786657, or 5.4028%, taking $1,000 to rounded ending equity of $1,054.03. Selection succeeded within the supplied candidate set: HYPE rose while all three priced rejected alternatives declined. Its entry case rested on observed relative strength, despite weak volume confirmation and fresh pricing below the reported moving average. The outcome supports persistence over this window; it does not establish a breakout mechanism or a general momentum edge. Research quality was stronger than forecast precision: LINK and XLM had carefully documented mechanisms and dates but failed to deliver positive weekly returns, while BTC's range-recovery assumption was contradicted by supplied daily closes. Full deployment made the portfolio participate almost entirely in HYPE's move; retained cash contributed no material return. Recorded execution costs reduced the gain. Concentration was disclosed and mandated, so this profitable result cannot demonstrate optimal sizing. Three four-week process lessons improve catalyst-to-return justification, technical-signal reconciliation and cost-aware decision records without changing the mandate or numerical confidence thresholds.",
+    "scorecards": [
+      {
+        "role": "researcher_a",
+        "score": 0.74,
+        "assessment": "Research 0.82: strong official-source interpretation, catalyst timing and supply caveats. Forecasting 0.55: both positive forecasts missed by over six percentage points, with limited evidence connecting events to demand within one week. Proposal ranking favored LINK over XLM, consistent with their matched outcome ordering. No executed sizing or execution belongs to this role. Overall score assesses process, not probability calibration."
+      },
+      {
+        "role": "researcher_b",
+        "score": 0.8,
+        "assessment": "Research 0.83: quantified completed-day relative strength and disclosed weak turnover and vendor limitations. Forecasting 0.65: HYPE direction and HYPE-over-BTC ranking succeeded; BTC recovery failed and HYPE exceeded expectation. Fresh pricing weakened breakout confirmation, as the manager recognized. No execution responsibility or evidence supporting calibrated probabilities. Overall process score remains bounded despite the winning selection."
+      },
+      {
+        "role": "manager",
+        "score": 0.85,
+        "assessment": "Selection 0.88: reviewed all four proposals and chose the strongest matched-window performer for stated entry reasons. Forecast handling 0.82: explicitly modest and uncalibrated. Sizing 0.86: complied with the fixed full-budget single-asset mandate and disclosed concentration; no diversification inference follows. Execution oversight 0.85: budget and ledger reconciled under modeled costs, with actual inputs differing from provisional sizing. Outcome alone does not validate a reusable selection rule."
+      }
+    ],
+    "forecast_comparisons": [
+      "HYPE: forecast +2.50%, matched discovery-to-exit raw return +5.7594%, error +3.2594 percentage points. Actual fill-observation raw return was +5.8252%; net portfolio return was +5.4028%. Relative-strength persistence was supported, but the endpoint does not establish its cause or calibrate the 55% profit probability.",
+      "LINK: forecast +2.50%, matched raw return -3.8639%, error -6.3639 percentage points. Reserve purchases and an October 29 event supported a plausible entry hypothesis; the positive holding-window forecast failed. Prices alone cannot establish whether an adoption announcement occurred or whether Reserve demand was offset by releases.",
+      "XLM: forecast +2.00%, matched raw return -4.0939%, error -6.0939 percentage points. Meridian and the November 3 testnet vote supplied dates, but the anticipated positive price response failed. The return does not establish whether the vote succeeded or technical progress failed.",
+      "BTC: forecast +1.20%, matched raw return -2.7697%, error -3.9697 percentage points. Deep supplied turnover supported liquidity eligibility, while negative momentum weakened the recovery case at entry. Supplied holding-period daily closes below $79,220 contradict the range-recovery assumption. The 53% profit probability remains uncalibrated."
+    ],
+    "selected_vs_rejected": "On the supplied common discovery-to-exit raw-price basis, selected HYPE gained 5.7594%, versus LINK -3.8639%, XLM -4.0939% and BTC -2.7697%. HYPE led by 9.6233, 9.8533 and 8.5292 percentage points respectively. This supports the realized selection and both researchers' internal rankings. At entry, HYPE had observed relative strength; LINK's announcement response was hypothetical, XLM's mainnet vote was outside the window, and BTC had weak momentum despite deeper turnover. Rejected outcomes are hypothetical and exclude execution costs. No comparable prices support conclusions about other investigated assets. Net portfolio return of 5.4028% exceeded the supplied raw BTC benchmark by 8.1725 points, but that comparison mixes actual execution timing and costs with discovery-based benchmark pricing.",
+    "execution_effects": "The actual buy used raw $80.34, modeled $80.50068 and 12.42225531 units, replacing the decision's $80.39-based estimate. Sale used raw $85.02 and modeled $84.84996. Additive spread/slippage was 20 bps adverse per side; fees were zero. On actual quantity, entry and exit costs totaled approximately $4.108066, reducing raw-price P&L of $58.135933 to $54.027867. Against a fully frictionless $1,000 deployment, total return drag was approximately $4.224561, including fewer units purchased. Cash flows reconcile; rounding dust was $0.00000041. These are modeled costs, not verified market impact.",
+    "error_categories": [
+      "Positive return forecast errors for LINK, XLM and BTC",
+      "Incomplete short-window catalyst-to-demand evidence",
+      "Vendor technical signals weakened by fresh pricing",
+      "Planned versus actual simulated execution inputs differed"
+    ],
+    "successes": [
+      "The finalized manager decision selected HYPE for explicit relative-strength reasons, acknowledged weakened breakout evidence and outperformed all three priced alternatives.",
+      "Researcher A distinguished Reserve token demand from holder revenue claims and testnet capability from mainnet deployment; negative returns do not invalidate those factual distinctions.",
+      "Researcher B disclosed declining rebound turnover, vendor-data limitations and subjective forecasts rather than presenting indicators as execution evidence.",
+      "Sizing, simulated fills and cash movements reconciled within the $1,000 budget; the scheduled next-Wednesday sale completed without an extended holding."
+    ],
+    "weaknesses": [
+      "LINK and XLM's modest positive forecasts lacked a strong demonstrated bridge from scheduled attention or technical progress to incremental token demand within the holding week.",
+      "BTC's positive recovery forecast conflicted with weak entry momentum and was contradicted by holding-period closes below its stated review threshold.",
+      "HYPE's vendor-close breakout evidence was weaker at fresh engine pricing; successful relative strength should not retrospectively validate every technical component.",
+      "The manager's sizing estimate used a different raw quote from the actual simulated fill. Reconciliation succeeded, but provisional and actual quantities should remain explicit."
+    ],
+    "limitations": "Small sample: one completed paper holding and four correlated candidate outcomes, with no prior cycles. Hindsight favors the winning relative-strength narrative; neither profitability nor forecast errors establish durable skill or probability calibration. Supplied sources establish prospective catalysts, but do not establish their subsequent outcomes or causal price effects. Endpoint comparisons cannot reconstruct synchronized intraperiod relative-strength triggers, executable depth or real slippage. Rejected comparisons are hypothetical raw returns.",
+    "evidence_ids": [
+      "crypto-paper-2026-10-28-2026-10-28:researcher_a",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_b",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+      "crypto-paper-2026-10-28-2026-10-28:researcher_b:2",
+      "crypto-paper-2026-10-28-2026-10-28:manager",
+      "crypto-paper-2026-10-28-2026-10-28:BUY:HYPE",
+      "crypto-paper-2026-10-28-2026-10-28:SELL:HYPE",
+      "discovery:HYPE:2026-10-28T13:37:36.985891+00:00",
+      "discovery:BTC:2026-10-28T13:37:36.985891+00:00",
+      "discovery:LINK:2026-10-28T13:37:36.985891+00:00",
+      "discovery:XLM:2026-10-28T13:37:36.985891+00:00",
+      "entry:HYPE:2026-10-28T13:38:35.730222+00:00",
+      "exit:HYPE:2026-11-04T14:35:05.530746+00:00",
+      "exit:BTC:2026-11-04T14:35:05.530746+00:00",
+      "exit:LINK:2026-11-04T14:35:05.530746+00:00",
+      "exit:XLM:2026-11-04T14:35:05.530746+00:00",
+      "web-researcher_a-1",
+      "web-researcher_a-2",
+      "web-researcher_a-5",
+      "web-researcher_a-6",
+      "web-researcher_b-1",
+      "web-researcher_b-4"
+    ],
+    "patches": [
+      {
+        "target": "researcher_a",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "For event-led proposals, retain the careful distinction between technical adoption and tokenholder value. Explicitly connect the event's stage and timing to plausible demand within the holding week, identify which link is speculative, and explain how adverse supplied price history affects the forecast. LINK and XLM had credible mechanisms or dates but negative matched-window returns; this supports clearer forecast justification, not a blanket penalty on conferences or testnet events.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:researcher_a:1",
+          "crypto-paper-2026-10-28-2026-10-28:researcher_a:2",
+          "web-researcher_a-1",
+          "web-researcher_a-2",
+          "web-researcher_a-5",
+          "web-researcher_a-6",
+          "exit:LINK:2026-11-04T14:35:05.530746+00:00",
+          "exit:XLM:2026-11-04T14:35:05.530746+00:00"
+        ],
+        "confidence": 0.76,
+        "expected_effect": "Make the evidentiary bridge from a dated event to a seven-day return easier to assess without treating this week's losses as proof that catalyst research fails.",
+        "duration_weeks": 4,
+        "success_metric": "For the next four cycles, every event-led proposal identifies event stage, established token-demand mechanism, speculative price-response link and contrary price evidence.",
+        "rollback_condition": "Revise if the checklist duplicates existing disclosures without clarifying the return forecast, or encourages unsupported numerical precision.",
+        "expiry": "2026-12-02"
+      },
+      {
+        "target": "researcher_b",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "Separate relative-strength persistence from moving-average breakout and volume confirmation. HYPE's winning relative-strength thesis coexisted with falling rebound turnover and a fresh $80.39 quote below the vendor $80.56 average. State the timestamp and venue of each input and provide a conditional interpretation for fresh engine pricing. Preserve modest conviction when components disagree; this single win does not justify higher profit probabilities or a permanent momentum preference.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+          "crypto-paper-2026-10-28-2026-10-28:researcher_b:2",
+          "web-researcher_b-1",
+          "web-researcher_b-4",
+          "discovery:HYPE:2026-10-28T13:37:36.985891+00:00",
+          "exit:HYPE:2026-11-04T14:35:05.530746+00:00",
+          "exit:BTC:2026-11-04T14:35:05.530746+00:00"
+        ],
+        "confidence": 0.8,
+        "expected_effect": "Preserve useful relative-strength research while preventing a stale breakout component from inflating conviction.",
+        "duration_weeks": 4,
+        "success_metric": "Each technical proposal in the next four cycles separates relative strength, absolute trend and volume confirmation, and states which fresh-price changes would weaken each component.",
+        "rollback_condition": "Revise if component separation implies that asynchronous vendor and engine observations are directly interchangeable.",
+        "expiry": "2026-12-02"
+      },
+      {
+        "target": "manager",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "Retain the evidence-based distinction between immediate relative strength and speculative event response. Alongside gross forecasts, show the approximate net expectation under the supplied cost convention and label quote-based quantity as provisional. This cycle's planned 12.41452907 units became 12.42225531 at the actual observation; budget compliance held. Keep concentration risk separate from selection quality and preserve the fixed single-asset, fully cash-funded Wednesday mandate.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:manager",
+          "crypto-paper-2026-10-28-2026-10-28:researcher_b:1",
+          "crypto-paper-2026-10-28-2026-10-28:BUY:HYPE",
+          "crypto-paper-2026-10-28-2026-10-28:SELL:HYPE"
+        ],
+        "confidence": 0.84,
+        "expected_effect": "Improve comparability and auditability of selection and execution without changing allocation rules or the execution model.",
+        "duration_weeks": 4,
+        "success_metric": "Next four decisions distinguish gross forecast, modeled net expectation, quote-based sizing estimate and actual reconciled fill; subsequent reviews separate exposure gains from cost drag.",
+        "rollback_condition": "Revise if estimates are presented as guaranteed fills or if reporting changes interfere with the fixed Wednesday mandate.",
+        "expiry": "2026-12-02"
+      }
+    ]
+  },
   "runs": [
     {
       "id": "crypto-paper-2026-10-28-2026-10-28:researcher_a",
@@ -553,6 +747,45 @@
         "event_stream_sha256": "7afcc1e86c346fdcdda42521037b2f9295ea4c4af5c8248f9d1e86bb6dc1f00a",
         "verification": "observed Codex item.completed web_search events; source claims are model reports"
       }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:analyst",
+      "role": "analyst",
+      "purpose": "REVIEW",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v2-complete-evidence",
+        "overlay_version": 0,
+        "lesson_ids": [],
+        "recent_week_ids": [],
+        "cutoff": "2026-11-04T14:35:05.530746+00:00",
+        "estimated_tokens": 11118,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 434,
+          "overlay": 32,
+          "current": 9854,
+          "recent": 1,
+          "older": 11,
+          "contract": 770
+        },
+        "reductions": []
+      },
+      "prompt_hash": "bdcdc61b4f04876e8c4f131850a3fd69ca73a08dbd4881e7585619ad393a0a59",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nFor this REVIEW task, use only supplied records. Web browsing is disabled for this purpose.\nYou are analyst, Riley. Review reconciled PAPER / SIMULATED outcomes before proposing bounded learning. Evaluate research, forecasting, selection, sizing and execution separately. Use selected and rejected matched-window comparisons; distinguish missing evidence from mistakes. Explicitly state small sample and hindsight limitations. Propose evidence-linked, expiring lessons only for researchers or manager. No tools, trading, credentials or base-contract changes. Return only the supplied JSON contract.\n\nUse the supplied finalized research reports, source findings, proposals, actual manager decision, entry/exit observations, fills, execution costs and cash movements. Analyze each thesis and forecast against the realized holding window; explain what supported the choice at entry, what the outcome contradicted, and what cannot be inferred. Attribute portfolio results to exposure, retained cash",
+      "research_summary": "",
+      "abstention_reason": null,
+      "investigated_tickers": [],
+      "sources": [],
+      "web_search_mode": "disabled",
+      "web_activity": {
+        "completed_calls": 0,
+        "calls": [],
+        "event_stream_sha256": "8be7a98cfc5d08dedb22bb74f5a6fdf559602b47f364aa5afad28d9df7e3fb91",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
     }
   ],
   "snapshots": [
@@ -718,6 +951,42 @@
           "redistribution": "metadata only; verify provider terms"
         }
       ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:exit",
+      "kind": "exit",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-04T14:35:05.530746+00:00",
+      "evidence": [
+        {
+          "id": "exit:BTC:2026-11-04T14:35:05.530746+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-04T14:35:04.953222+00:00",
+          "price": "78483.20000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:HYPE:2026-11-04T14:35:05.530746+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-11-04T14:35:05.239056+00:00",
+          "price": "85.020000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:LINK:2026-11-04T14:35:05.530746+00:00",
+          "ticker": "LINK",
+          "observed_at": "2026-11-04T14:35:05.216601+00:00",
+          "price": "11.175540",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:XLM:2026-11-04T14:35:05.530746+00:00",
+          "ticker": "XLM",
+          "observed_at": "2026-11-04T14:35:05.290139+00:00",
+          "price": "0.16300200",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
     }
   ],
   "fills": [
@@ -734,6 +1003,22 @@
       "fill_time": "2026-10-28T13:38:33.733177+00:00",
       "fill_model": "spread-slippage-v1",
       "raw_price": "80.340000"
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-10-28:SELL:HYPE",
+      "ticker": "HYPE",
+      "quantity": "12.42225531",
+      "price": "84.84996000",
+      "fee": "0E-8",
+      "side": "SELL",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-04T14:35:05.239056+00:00",
+      "fill_time": "2026-11-04T14:35:05.239056+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "85.020000",
+      "cost_basis_sold": "999.99999959",
+      "realized_pnl": "54.02786657"
     }
   ],
   "timeline": [
@@ -744,6 +1029,14 @@
     {
       "stage": "PURCHASES",
       "completed_at": "2026-10-28T13:38:37.441318+00:00"
+    },
+    {
+      "stage": "LIQUIDATION",
+      "completed_at": "2026-11-04T14:35:07.802129+00:00"
+    },
+    {
+      "stage": "REVIEW",
+      "completed_at": "2026-11-04T14:37:12.044632+00:00"
     }
   ],
   "meeting_ids": []

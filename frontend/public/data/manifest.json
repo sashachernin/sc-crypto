@@ -1,49 +1,55 @@
 {
   "schema_version": "1",
-  "snapshot_id": "crypto-paper-2026-10-28-r12",
-  "source_revision": 12,
+  "snapshot_id": "crypto-paper-2026-10-28-r20",
+  "source_revision": 20,
   "experiment_id": "crypto-paper-2026-10-28",
   "label": "PAPER / SIMULATED",
   "synthetic": false,
-  "created_at": "2026-11-03T17:45:05.923827+00:00",
-  "source_cutoff": "2026-11-03T17:45:04.809175+00:00",
-  "valuation_time": "2026-11-03T17:45:04.809175+00:00",
+  "created_at": "2026-11-04T14:41:41.132825+00:00",
+  "source_cutoff": "2026-11-04T14:41:40.188821+00:00",
+  "valuation_time": "2026-11-04T14:41:40.188821+00:00",
   "next_expected_publication": "Every day at 12:45 America/New_York, plus Wednesday rollover results",
   "files": [
     {
       "path": "frontend/public/data/learning/index.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3,
+      "sha256": "d11a7fd09f3eab9218a67c8ca771460b045217bfe1c517af71d0b8cad60a1738",
+      "bytes": 5363,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/operations.json",
-      "sha256": "f3258df294145ec9ef209f3c8afbd8201b35f8296e97f8f8693fa71b51dfa11e",
+      "sha256": "42fd9d2e782c1cf9463c25dd869a19e233921ff2df0fbe78976bdb977014baff",
       "bytes": 3106,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/overview.json",
-      "sha256": "b383cd45c796ca24bd8c0619c9b1aebf5bb2488e27c167e990c2c5840ec13d32",
-      "bytes": 3060,
+      "sha256": "be923f543d12300e078a590ef305e0c762d74ec12dabb3960099d2164fd474a6",
+      "bytes": 4292,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/performance.csv",
-      "sha256": "2b0e49b8eb86d0b0da9b01a8dcf119d63d1f4926d6e52c2a4b8b161319b9ea6c",
-      "bytes": 91,
+      "sha256": "3821e979b8edbdd63db0e684e875f83c8dbaae155d5a0e439feab47f548ebcec",
+      "bytes": 161,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/weeks/crypto-paper-2026-10-28-2026-10-28.json",
-      "sha256": "435ea40e745586c894f4560f9fa66f49eb8a52eb3e462c136af53064b36f9b34",
-      "bytes": 44427,
+      "sha256": "5ff39783be1e6cbf6b6076f72f4bcf7e8c0f8008dc8ee11042a21b4c96c33306",
+      "bytes": 65934,
+      "schema_version": "1"
+    },
+    {
+      "path": "frontend/public/data/weeks/crypto-paper-2026-10-28-2026-11-04.json",
+      "sha256": "4eedd6338ac42dc2f85a14322a94079bd2c9bdf38212e1cb0f2d5d4652cc041a",
+      "bytes": 45771,
       "schema_version": "1"
     },
     {
       "path": "frontend/public/data/weeks/index.json",
-      "sha256": "d9bf315a53df4f574cf566f3e1589dd78827d3eaffff4d068b33e747b7b6f67b",
-      "bytes": 185,
+      "sha256": "4f0fe08da4e324f4a1e8d36a49726a367f2348034042a32ae1c3f8ca12e1db95",
+      "bytes": 374,
       "schema_version": "1"
     }
   ]
