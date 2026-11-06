@@ -32,8 +32,8 @@
       "calendar",
       "ledger reconciliation"
     ],
-    "current_equity": "996.67",
-    "current_pnl": "-57.36"
+    "current_equity": "1076.84",
+    "current_pnl": "22.82"
   },
   "proposals": [
     {
@@ -692,6 +692,21 @@
           "ticker": "ZEC",
           "observed_at": "2026-11-05T17:45:02.535648+00:00",
           "price": "1245.83000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:valuation:2026-11-06",
+      "kind": "valuation-2026-11-06",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-06T17:45:04.904094+00:00",
+      "evidence": [
+        {
+          "id": "valuation:ZEC:2026-11-06T17:45:04.904094+00:00",
+          "ticker": "ZEC",
+          "observed_at": "2026-11-06T17:45:04.574630+00:00",
+          "price": "1346.05000",
           "redistribution": "metadata only; verify provider terms"
         }
       ]
