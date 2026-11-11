@@ -1,11 +1,11 @@
 {
-  "observed_at": "2026-11-10T17:45:09.821655+00:00",
+  "observed_at": "2026-11-11T14:41:24.276484+00:00",
   "paused": false,
   "worker_status": "Snapshot observation; live status available only through Linux CLI",
   "queue": {
-    "QUEUED": 0,
-    "RUNNING": 0,
-    "COMPLETED": 6,
+    "QUEUED": 2,
+    "RUNNING": 1,
+    "COMPLETED": 7,
     "FAILED": 0
   },
   "incidents": [],
@@ -178,7 +178,7 @@
     }
   },
   "previous_delivery": {
-    "snapshot_id": "crypto-paper-2026-10-28-r26",
+    "snapshot_id": "crypto-paper-2026-10-28-r27",
     "status": "VALIDATED"
   }
 }

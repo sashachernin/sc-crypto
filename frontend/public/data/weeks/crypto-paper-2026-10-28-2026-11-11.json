@@ -1,0 +1,705 @@
+{
+  "id": "crypto-paper-2026-10-28-2026-11-11",
+  "wednesday": "2026-11-11",
+  "status": "OPEN",
+  "label": "PAPER / SIMULATED",
+  "data": {
+    "research_scope": "kraken_usd_spot_crypto",
+    "discovery_screening": {
+      "BTC": "ELIGIBLE",
+      "HYPE": "ELIGIBLE",
+      "ICP": "Unsupported USD spot pair, stale price, insufficient USD volume or history",
+      "SOL": "ELIGIBLE"
+    },
+    "starting_equity": "776.76632951",
+    "share_policy": "fractional_crypto_units",
+    "purchase_outcomes": [
+      {
+        "ticker": "BTC",
+        "status": "FILLED",
+        "quantity": "0.01053749",
+        "cost": "776.76617331",
+        "unspent_allocation": "0.00015620"
+      }
+    ],
+    "entry_cutoff": "2026-11-11T14:40:41.461983+00:00",
+    "risk_checks": [
+      "proposal membership",
+      "combined ticker concentration",
+      "deployment cap",
+      "cash arithmetic",
+      "quote freshness",
+      "calendar",
+      "ledger reconciliation"
+    ],
+    "current_equity": "775.22",
+    "current_pnl": "-1.55"
+  },
+  "proposals": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_a:1",
+      "run_id": "crypto-paper-2026-10-28-2026-11-11:researcher_a",
+      "role": "researcher_a",
+      "ticker": "HYPE",
+      "company": "Hyperliquid",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": 0.01,
+      "downside": -0.35,
+      "probability_profit": 0.48,
+      "confidence": 0.44,
+      "thesis": "HYPE ranks first because its established fee-funded purchase/burn mechanism offers a clearer tokenholder-value link than conference attention alone. Kinetiq announced Elysium mainnet on November 9 with HYPE as gas, creating a plausible first-week usage opportunity. This is a launched-network observation, not a future activation catalyst. Incremental gas demand and a favorable price response are hypotheses; Elysium's advertised sequencer buybacks accrue to KNTQ. No fresh matched HYPE price history was supplied, so earlier profitable HYPE results provide no evidence of current momentum. The +1% estimate deliberately allows profitable upside tails while assigning less than even odds to a gain. Delayed ecosystem adoption or successful operation accompanied by selling could both produce losses.",
+      "catalysts": [
+        "November 11–18: first full operating week following Kinetiq's November 9 Elysium public-mainnet announcement; HYPE gas usage is established by the announcement, but incremental demand remains unmeasured.",
+        "November 11–18: ongoing Hyperliquid fee-funded Assistance Fund activity provides a recurring value-capture mechanism, rather than a newly scheduled event."
+      ],
+      "risks": [
+        "Successful deployment can coexist with flat or falling HYPE prices; additional gas demand may be economically small.",
+        "Elysium directs 50% of sequencer revenue toward KNTQ buybacks, not HYPE buybacks.",
+        "Contributor distributions and subsequent selling remain uncertain. A secondary analysis models 9.92 million HYPE, approximately 4.1% of its November 1 circulating-supply estimate, but explicitly says this is not an announced distribution.",
+        "A new chain introduces bridge, sequencer and application-security risks; launch announcements do not establish safe operation.",
+        "The -35% adverse scenario is not a loss limit. Correlated market selling could overwhelm adoption and token purchases."
+      ],
+      "invalidation": "The incremental adoption thesis fails if Elysium halts or its bridge is suspended, or if completed-day transaction and gas-use data through November 17 show no growth versus November 10. A suspension of Assistance Fund purchases invalidates the recurring demand assumption. These conditions require subsequent verification.",
+      "assumptions": [
+        "Forecast covers November 11–18, 2026 and represents a subjective gross spot return; execution costs reduce it.",
+        "Elysium's first full operating week attracts some incremental HYPE gas demand, although no verified demand increase was established.",
+        "Hyperliquid's fee-funded token purchases continue; their weekly magnitude is unverified.",
+        "Broad crypto selling moderates sufficiently for ecosystem developments to matter."
+      ],
+      "evidence_ids": [
+        "web-researcher_a-1",
+        "web-researcher_a-2",
+        "web-researcher_a-3"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_a:2",
+      "run_id": "crypto-paper-2026-10-28-2026-11-11:researcher_a",
+      "role": "researcher_a",
+      "ticker": "SOL",
+      "company": "Solana",
+      "rank": 2,
+      "max_allocation": "1",
+      "expected_return": -0.01,
+      "downside": -0.28,
+      "probability_profit": 0.43,
+      "confidence": 0.46,
+      "thesis": "Breakpoint supplies the clearest verified forward event in this search, but tokenholder value requires more than ecosystem publicity. SOL pays transaction fees and half of base fees is burned; those are established mechanisms. Conference-driven incremental activity and purchases during this particular week remain speculative. Contrary evidence matters: pre-cutoff reporting documents substantial recent underperformance, so the central forecast is slightly negative despite possible announcement upside. Event postponement removes the attention catalyst, while successful delivery with continued market selling also produces a losing scenario. SOL remains a second-ranked eligible alternative under the single-asset mandate, conditional on the engine's executable-market checks.",
+      "catalysts": [
+        "November 15–17: Solana's official Breakpoint conference at Olympia London falls inside the holding period; specific market-moving announcements are unverified."
+      ],
+      "risks": [
+        "A successful conference can coincide with selling; attendance and partnership announcements do not establish SOL purchases.",
+        "November 10 reporting describes approximately 11.7% seven-day and 22.9% four-week losses, contradicting an uncomplicated event-led appreciation thesis.",
+        "SOL is required for fees, but low transaction costs can make incremental token demand small; priority fees accrue to validators rather than all holders.",
+        "Issuance and potential holder sales can outweigh base-fee burning; no current primary-source weekly unlock reconciliation was established.",
+        "Network incidents, application exploits and broader crypto weakness could produce losses exceeding the adverse scenario."
+      ],
+      "invalidation": "The event thesis fails if Breakpoint is postponed outside the holding period. The incremental-demand hypothesis fails if completed-day transaction and base-fee data during November 15–17 do not exceed their November 8–10 averages. A material consensus outage or exploit invalidates the operational assumption.",
+      "assumptions": [
+        "Forecast covers November 11–18, 2026 and is a subjective gross spot return before execution costs.",
+        "Breakpoint proceeds on its announced November 15–17 schedule.",
+        "Some conference attention translates into activity requiring SOL, but no announced purchase commitment or quantified weekly demand was verified.",
+        "Recent negative price evidence remains more informative for the base case than an assumed conference rally."
+      ],
+      "evidence_ids": [
+        "web-researcher_a-4",
+        "web-researcher_a-5",
+        "web-researcher_a-6"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_b:1",
+      "run_id": "crypto-paper-2026-10-28-2026-11-11:researcher_b",
+      "role": "researcher_b",
+      "ticker": "BTC",
+      "company": "Bitcoin",
+      "rank": 1,
+      "max_allocation": "1",
+      "expected_return": -0.005,
+      "downside": -0.12,
+      "probability_profit": 0.46,
+      "confidence": 0.57,
+      "thesis": "Rank first for comparative liquidity and downside control within the mandatory single-asset mandate. ChartExchange composite completed UTC candles through November 10 show BTC down 4.71% from November 3, closing at $73,697.87 below its calculated seven-day SMA of $75,953 and 20-day SMA of $78,079. Sample daily log-return volatility across the 19 intervening returns is 2.07%. Absolute trend is bearish. Relative resilience is supported by weak broader breadth, not a bullish breakout. November 10 reported volume was 14,318 BTC, approximately $1.055bn using close times units, up 6.75% from November 9; this is a turnover proxy, not exact USD notional or Kraken volume. Illustrative stabilization could yield +3% to +6%; renewed weakness could produce -7% to -12%. The unconditional -0.5% forecast incorporates both without treating scenario weights as calibrated probabilities.",
+      "catalysts": [
+        "November 11–18, 2026: conditional technical catalyst—holding the completed November 10 composite low of $72,643 and recovering the approximately $75,953 seven-day average could support a relief rally. This is a hypothesis, not an announced event."
+      ],
+      "risks": [
+        "The absolute trend is negative; relative resilience does not establish a bottom.",
+        "November 10 turnover increased during a declining session, providing no accumulation confirmation.",
+        "A renewed market selloff could exceed the stated adverse scenario.",
+        "The modest gross forecast becomes less favorable after costs; ranking reflects comparative downside and liquidity under mandatory spot exposure."
+      ],
+      "invalidation": "Fresh Kraken pricing below $72,643 weakens ranking immediately; a completed daily close below that reference invalidates the stabilization thesis. Recovery above $75,953 improves absolute trend but requires Kraken turnover confirmation. These composite thresholds require venue reconciliation, not automatic execution.",
+      "assumptions": [
+        "The engine confirms the online Kraken BTC/USD spot pair, fresh executable pricing, at least 20 completed daily candles and required last-completed-day USD volume.",
+        "The holding period is November 11–18, 2026; forecasts are subjective gross spot returns before execution costs.",
+        "BTC stabilization around the November 10 low remains possible, but renewed weakness has substantial weight.",
+        "Composite historical prices and the supplied Kraken benchmark are asynchronous observations, not interchangeable execution inputs."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-1",
+        "web-researcher_b-2",
+        "web-researcher_b-3"
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_b:2",
+      "run_id": "crypto-paper-2026-10-28-2026-11-11:researcher_b",
+      "role": "researcher_b",
+      "ticker": "ICP",
+      "company": "Internet Computer",
+      "rank": 2,
+      "max_allocation": "1",
+      "expected_return": 0.008,
+      "downside": -0.22,
+      "probability_profit": 0.48,
+      "confidence": 0.4,
+      "thesis": "A speculative alternative with provisional relative strength, weaker liquidity evidence and higher downside than BTC. CoinCodex completed November 10 data show a $2.54 close versus $2.55 on November 3: -0.39%, approximately +4.53% in ratio terms relative to the composite BTC comparison. This is a cross-vendor estimate, not a matched Kraken indicator. Absolute trend is mixed: $2.54 exceeds the calculated seven-close SMA of $2.449 but remains below the November 4 $2.62 close. Turnover confirmation is absent: aggregate USD volume fell 18.41%, from $34.22m on November 9 to $27.92m on November 10. Coinbase historical data independently report approximately $2.53 for November 10. Illustrative BTC stabilization could support +6% to +12%; renewed weakness could produce -12% to -22%. The unconditional +0.8% gross forecast allows both and carries low conviction.",
+      "catalysts": [
+        "November 11–18, 2026: conditional continuation of the November 9–10 rebound and recovery through $2.62 could attract momentum demand, provided completed-day Kraken USD turnover expands. No scheduled asset-specific event was verified before cutoff."
+      ],
+      "risks": [
+        "Rebound turnover fell, so price strength lacks expanding-volume confirmation.",
+        "November 10's aggregate high-low range was approximately 8.79% of its open, indicating substantial intraday instability.",
+        "Kraken pair-level liquidity may fail the screen despite substantial aggregate volume.",
+        "A sharp rebound can reverse quickly; crowded positioning is a qualitative concern, not a measured finding.",
+        "Renewed BTC weakness could overwhelm provisional relative strength and produce losses beyond the adverse scenario."
+      ],
+      "invalidation": "Fresh ICP below $2.449 weakens the short-average component and ranking; below $2.39 materially weakens rebound persistence. A completed close below $2.27 invalidates the rebound thesis. A matched seven-day ICP/BTC return at or below zero removes relative-strength support. Thin Kraken volume fails eligibility rather than confirming a breakout.",
+      "assumptions": [
+        "The engine confirms ICP/USD Kraken spot eligibility, fresh pricing, candle history and at least $1m last-completed-day pair-level USD volume; global volume cannot establish this.",
+        "CoinCodex aggregate UTC daily periods ending by November 11 00:00 UTC are completed observations.",
+        "The approximate BTC-relative comparison uses different vendor universes and requires matched Kraken candles before treating it as established.",
+        "Both proposals share exposure to BTC stabilization; ICP offers no demonstrated independent hedge."
+      ],
+      "evidence_ids": [
+        "web-researcher_b-1",
+        "web-researcher_b-4",
+        "web-researcher_b-5"
+      ]
+    }
+  ],
+  "decision": {
+    "reviewed_ids": [
+      "crypto-paper-2026-10-28-2026-11-11:researcher_a:1",
+      "crypto-paper-2026-10-28-2026-11-11:researcher_a:2",
+      "crypto-paper-2026-10-28-2026-11-11:researcher_b:1",
+      "crypto-paper-2026-10-28-2026-11-11:researcher_b:2"
+    ],
+    "allocations": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-11:researcher_b:1",
+        "amount": "776.76632951",
+        "percent": "1",
+        "rationale": "Select BTC for November 11–18: its conditional stabilization thesis, relative resilience and $262.96m supplied Kraken USD volume provide stronger support than speculative event demand. BTC's -0.5% gross forecast is approximately -0.90% after modeled round-trip costs, versus HYPE's approximately +0.60%; HYPE's unmeasured incremental demand does not justify its -35% adverse scenario versus BTC's -12%. Commit the full cash budget, including costs. At $73,650.50 with a 0.20% entry adjustment, provisional quantity is 0.01052560 BTC, rounded down to eight decimals; this is not a reconciled fill."
+      }
+    ],
+    "rejections": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-11:researcher_a:1",
+        "rationale": "HYPE is eligible, but its +1% gross forecast, approximately +0.60% after round-trip costs, offers only about 1.5 percentage points more expected return than BTC against a -35% versus -12% adverse scenario. Elysium gas demand is unmeasured, sequencer buybacks benefit KNTQ, and contributor selling remains uncertain. Supplied declining history and researcher B's completed-day evidence weaken momentum support; the earlier profitable HYPE holding is not evidence of a current edge."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-11:researcher_a:2",
+        "rationale": "SOL is eligible, but Breakpoint on November 15–17 establishes conference timing without quantified SOL purchases. Its -1% gross forecast is approximately -1.40% after round-trip costs, below BTC's expectation, with a worse -28% adverse scenario. Supplied history and independent reporting show substantial weakness. Successful conference delivery can coexist with continued selling."
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-11:researcher_b:2",
+        "rationale": "ICP is ineligible: it is absent from eligible_discovered_tickers and failed the supplied executable-market screening. Aggregate liquidity and cross-vendor relative strength cannot repair missing qualifying Kraken evidence. Its rebound also lacks expanding turnover and depends on BTC stabilization. The +0.8% gross forecast cannot override the eligibility failure."
+      }
+    ],
+    "retained_cash": "0",
+    "hold_cash": false,
+    "summary": "Casey reviewed both independent reports and all four submitted proposals. Select only researcher B's BTC proposal for the simulated Wednesday November 11 to Wednesday November 18 holding period, allocating all $776.76632951 including execution costs. BTC is eligible and offers the strongest comparative liquidity and downside case, although its seven-day expected return remains negative. HYPE's modest forecast advantage lacks measured demand evidence sufficient to warrant its much larger adverse scenario; SOL combines a weaker forecast with greater downside, and ICP fails eligibility. The completed ZEC holding was reviewed first. Its loss informs scenario scrutiny without proving its original research invalid. This records a new simulated purchase allocation; the quoted quantity remains provisional pending execution reconciliation.",
+    "risk_considerations": [
+      "BTC's absolute trend remains bearish. Stabilization near the composite $72,643 low and recovery toward $75,953 are conditional hypotheses; higher turnover during a decline does not establish accumulation.",
+      "BTC's -12%, HYPE's -35% and SOL's -28% adverse scenarios are not loss limits. Correlated selling can produce larger losses.",
+      "Cost estimates assume the supplied 10 bps spread plus 10 bps slippage apply adversely on each transaction: net return is approximately (1 + gross return) × 0.998 / 1.002 − 1, with zero fees.",
+      "The entire cash amount is committed as a cost-inclusive execution budget. Eight-decimal rounding can leave execution dust; retained_cash=0 represents no discretionary cash allocation.",
+      "The completed prior ZEC position was reviewed before this new allocation: its $277.26153706 loss, approximately 26.3049%, exceeded its adverse scenario. The supplied record marks that cycle completed and provides current cash; no additional sale or fill is invented.",
+      "Prior ZEC losses support stronger downside and regime comparisons, not automatic rejection of event research. Prior HYPE gains do not establish current momentum or validate forecast calibration.",
+      "Single-asset concentration and full deployment follow the mandate. BTC is selected for comparative evidence and downside exposure despite a negative central forecast.",
+      "Discovery quotes, composite technical references and future fills are distinct observations. Reconciliation must separate quote movement from modeled execution costs; invalidation references are not automatic stop orders."
+    ],
+    "uncertainty": "Forecasts and profit probabilities are subjective, not calibrated. BTC confidence is 0.57 and stated probability of profit is 0.46; relative resilience does not establish a bottom. Composite thresholds require Kraken reconciliation. No actual new fill or detailed prior-sale ledger is supplied. Costs, quantity and net expectations are estimates under the stated convention."
+  },
+  "review": null,
+  "runs": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_a",
+      "role": "researcher_a",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 2,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:0",
+          "crypto-paper-2026-10-28-2026-11-04:patch:0"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-11-04",
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-11T14:37:13.350251+00:00",
+        "estimated_tokens": 2804,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 481,
+          "overlay": 753,
+          "current": 170,
+          "recent": 590,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "e647015f315fb1add697b77c49354f1595543e4ceb2105783131d18ac4b9d271",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_a, Avery. Focus on protocol adoption, token economics, supply unlocks, governance, ecosystem usage, security incidents and verifiable seven-day catalysts. Prefer protocol documentation, foundation releases, governance forums, explorers and primary announcements. Separate token utility from tokenholder value and measure unlock size against circulating supply when evidence permits.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty marke",
+      "research_summary": "Independent live discovery covered selected protocol events, adoption mechanisms and supply risks, including smaller ecosystem assets; coverage was not exhaustive. HYPE ranks above SOL on established token-value capture, although neither has verified incremental token-demand measurements for this holding week. SOL has a verified November 15–17 event but adverse pre-cutoff price evidence. ETH was excluded because the Foundation disclosed Glamsterdam compatibility concerns and delayed Hoodi; November 13 reports and November 16 discussions are security-resolution milestones, not a mainnet launch. ARB's monthly insider vesting creates supply risk: trackers estimate 92.65 million tokens, approximately 1.34% of one circulating-supply estimate, but disagree between November 15 and 16. ZEC's scheduled NU7 milestone belongs to the preceding holding window. KNTQ and PENDLE did not receive sufficiently verified within-week demand and eligibility evidence for proposals. Applied both active lessons: event stage, utility versus holder value, speculative demand, delayed-adoption and successful-event-with-selling scenarios are explicit. Last week's approximately 26.3% ZEC loss supports wider adverse scenarios, not an automatic rejection of protocol research. Forecasts are subjective, weak-edge estimates, not calibrated statistical outputs; downside figures are adverse scenarios rather than maximum losses. The packet supplies no candidate candles or quotes, so no current relative-strength or execution-price claim is made. Kraken pair status, fresh prices, completed history and volume remain subject to the engine's independent verification.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "HYPE",
+        "SOL",
+        "ETH",
+        "ARB",
+        "ZEC",
+        "KNTQ",
+        "PENDLE"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_a-1",
+          "url": "https://www.globenewswire.com/news-release/2026/11/09/3398435/0/en/kinetiq-launches-elysium-public-mainnet-a-high-performance-layer-2-built-for-hyperliquid.html",
+          "title": "Kinetiq Launches Elysium Public Mainnet, a High-Performance Layer 2 Built for Hyperliquid",
+          "published_at": "2026-11-09T13:38:00Z",
+          "finding": "Kinetiq announced Elysium public mainnet availability on November 9. The network settles to HyperEVM and uses HYPE as native gas. The release assigns 50% of sequencer revenue to KNTQ buybacks, which must not be attributed to HYPE holders. Performance figures are issuer claims, not independently measured adoption."
+        },
+        {
+          "id": "web-researcher_a-2",
+          "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees",
+          "title": "Fees | Hyperliquid Docs",
+          "published_at": null,
+          "finding": "Protocol documentation directs fees to community recipients including HLP, deployers and the Assistance Fund, and states that HYPE in the fund is burned. This establishes a value-capture mechanism without establishing current weekly purchase amounts or guaranteeing appreciation."
+        },
+        {
+          "id": "web-researcher_a-3",
+          "url": "https://www.coindaro.com/events/hype-unlock-november-2026/",
+          "title": "Hyperliquid (HYPE) unlock on 6 November 2026: trackers model 9.9M, no amount announced",
+          "published_at": null,
+          "finding": "Secondary research distinguishes modeled contributor vesting from actual distributions. Its 9,916,666-HYPE model equals approximately 4.1% of a cited 239,406,814 circulating supply dated November 1, rather than merely 0.99% of total supply. It reports no announced November amount and describes distributions as discretionary. These figures are not independently verified claims or sales."
+        },
+        {
+          "id": "web-researcher_a-4",
+          "url": "https://solana.com/breakpoint",
+          "title": "Breakpoint 2026: Solana Conference | London Nov 15–17",
+          "published_at": null,
+          "finding": "Solana's official event page schedules Breakpoint at Olympia London on November 15–17, 2026. This verifies a within-week conference, not particular product launches, token purchases or investment returns. The page's ecosystem statistics are promotional and were not used as independently verified adoption measurements."
+        },
+        {
+          "id": "web-researcher_a-5",
+          "url": "https://solana.com/docs/core/fees",
+          "title": "Fees | Solana Documentation",
+          "published_at": null,
+          "finding": "Official documentation requires SOL for transaction fees. Base fees are split equally between burning and validators, while priority fees go entirely to validators. Network activity therefore has a token-utility connection, but activity and validator compensation do not translate one-for-one into returns for unstaked spot holders."
+        },
+        {
+          "id": "web-researcher_a-6",
+          "url": "https://primexbt.com/news/solana-falls-to-four-week-low-as-losses-outpace-bitcoin-and-ether/",
+          "title": "Solana Falls to Four-Week Low as Losses Outpace Bitcoin and Ether",
+          "published_at": "2026-11-10",
+          "finding": "The November 10 article, citing The Defiant's matched Coinbase endpoints, reports SOL down approximately 11.7% over seven days and 22.9% over 28 days, versus BTC down 5.4% and 12.1%. This is secondary contrary price evidence, not Kraken execution data. Dynamic quote widgets were excluded."
+        },
+        {
+          "id": "web-researcher_a-7",
+          "url": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+          "title": "EIP-8037/EIP-8038 Glamsterdam",
+          "published_at": "2026-11-06",
+          "finding": "The Foundation says testing identified deployed-contract compatibility concerns involving EIP-8037/8038 and that Hoodi would be delayed pending resolution. It schedules audit-report delivery/publication for November 13 and findings discussion for November 16; next-step deliberation on November 19 lies outside this holding window."
+        },
+        {
+          "id": "web-researcher_a-8",
+          "url": "https://docs.arbitrum.foundation/token-supply",
+          "title": "What is the token circulating supply? | Arbitrum DAO",
+          "published_at": null,
+          "finding": "Foundation documentation establishes four-year team, contributor and investor vesting from March 16, 2023, with monthly releases after the first year, plus continuous Foundation vesting. Its displayed circulating-supply table is historical and cannot serve as a current denominator."
+        },
+        {
+          "id": "web-researcher_a-9",
+          "url": "https://defillama.com/unlocks/arbitrum-foundation",
+          "title": "Arbitrum Foundation (ARB) Token Unlocks & Vesting Schedule",
+          "published_at": null,
+          "finding": "The vesting tracker estimates an upcoming 92.65-million-ARB release, comprising 56.13 million for team/contributors/advisors and 36.52 million for investors. Against its 6.892-billion circulating supply, the tranche is approximately 1.34%. It displays November 15, whereas other schedule interpretations indicate November 16; exact timing remains unresolved and an unlock is not a sale."
+        },
+        {
+          "id": "web-researcher_a-10",
+          "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655",
+          "title": "NU7 Timeline | Zcash Community Forum",
+          "published_at": "2026-09-17T22:42:00Z",
+          "finding": "The September 17 opening post targeted NU7 mainnet for November 5, with faster blocks and sustainability-mechanism changes. The planned event falls before the present holding period and cannot be reused as a future catalyst. The dated opening post was used without relying on later thread updates."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 6,
+        "calls": [
+          {
+            "type": "search",
+            "queries": [
+              "crypto November 2026 November 11 2026 protocol upgrade token unlock November 18",
+              "site.ethereum.org November 2026 upgrade",
+              "site.z.cash November 2026 NU7 activation"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.solana.com breakpoint 2026 November 15 London",
+              "site.blog.ethereum.org 2026 Glamsterdam mainnet November",
+              "site.hyperliquid.xyz November 2026 Elysium HYPE assistance fund",
+              "crypto protocol November 12 2026 November 17 2026 mainnet launch upgrade"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.kinetiq.xyz Elysium November 9 2026",
+              "site.hyperliquid.gitbook.io HYPE assistance fund fees token supply",
+              "site.solana.com docs transaction fees burn inflation schedule SOL",
+              "site.pendle.finance November 2026 sPENDLE fees buyback"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.arbitrum.foundation token vesting 92.65 million monthly 16",
+              "site.hyperliquid.xyz November 2026 contributor unlock HYPE November 6"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.hyperliquid.gitbook.io \"Core contributors\" \"23.8%\"",
+              "site.solana.com \"inflation\" \"15%\" \"1.5%\"",
+              "Solana SOL November 11 2026 price week decline",
+              "HYPE November 11 2026 price decline week"
+            ]
+          },
+          {
+            "type": "other"
+          }
+        ],
+        "event_stream_sha256": "d7482b42f763bde5cb35f6b2232233590b0cef67a885af77bff9ff6e4ee6bb2f",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:researcher_b",
+      "role": "researcher_b",
+      "purpose": "RESEARCH",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v3-market-wide-discovery",
+        "overlay_version": 2,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:1",
+          "crypto-paper-2026-10-28-2026-11-04:patch:1"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-11-04",
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-11T14:37:13.350251+00:00",
+        "estimated_tokens": 2821,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 479,
+          "overlay": 772,
+          "current": 170,
+          "recent": 590,
+          "older": 11,
+          "contract": 781
+        },
+        "reductions": []
+      },
+      "prompt_hash": "b841933f1bbd82efb84ec9d1568d35c47c2bfe9bb46d01f2344070e1857d6c8c",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nYou are researcher_b, Morgan. Focus on price and USD volume, momentum, trend stability, volatility, liquidity, Bitcoin relative strength and market regime. Compare several assets and identify crowded or unstable moves. Distinguish actual measured indicators from qualitative impressions. Derivatives information may inform spot risk but never recommend a derivatives trade.\n\nThis is a PAPER / SIMULATED crypto firm. Research a seven-day Wednesday-to-next-Wednesday holding period. Research independently using live web search when independent_web_research is true. Search across spot cryptocurrencies, including beyond familiar large caps; the engine independently verifies online Kraken USD spot pairs, fresh prices, at least 20 completed daily candles and at least $1m USD volume on the last completed day. No stocks, ETFs, derivatives, shorts, leverage or stablecoin trades. Use canonical symbols (BTC, not XBT; DOGE, not XDG) without a USD suffix. An empty market packet is an invitation to",
+      "research_summary": "Morgan / researcher_b: independently searched a selective spot universe for November 11–18, 2026; coverage is not exhaustive. Ranked BTC ahead of ICP on liquidity evidence and comparative downside, despite BTC's slightly negative unconditional forecast. Measured indicators use completed UTC days through November 10; untimed live quotes and November 11 partial candles were excluded from calculations. The supplied Kraken BTC benchmark is $73,362.90, below the composite previous close and averages, so it does not establish recovery. Broader evidence indicates weak breadth: Sector Alpha's dated November 8 snapshot recorded only 60 of 347 coins rising. Discovery included smaller movers ICNT, AIOT and RSR; large gains alone did not establish executable liquidity or stable trends. TRX's November 3–10 composite decline was approximately 1.33%, relatively resilient, but its reported November 10 composite turnover proxy was only about $36,859 and cannot substantiate Kraken eligibility. XMR fell from a November 4 Yahoo close of $641.60 to $562.28 on November 10, weakening a privacy-momentum case. HYPE's completed November 10 spot-vendor decline and broad range also argue against extrapolating its earlier winning week. Crowding was not directly measured; unstable price action is distinguishable from established crowded positioning. Applied both active lessons: separated relative strength, absolute trend and turnover, and showed the shared BTC stabilization dependency. Prior losses motivate scenario scrutiny, not a mechanically calibrated probability reduction. Downside numbers are adverse seven-day scenarios, not loss limits. No derivatives trade is proposed. All eligibility and execution checks remain with the engine; max_allocation=1.0 denotes mandate eligibility subject to those checks.",
+      "abstention_reason": null,
+      "investigated_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "HYPE",
+        "ICP",
+        "XMR",
+        "TRX",
+        "RSR",
+        "ICNT",
+        "AIOT"
+      ],
+      "sources": [
+        {
+          "id": "web-researcher_b-1",
+          "url": "https://chartexchange.com/symbol/crypto-btcusd/historical/?exchange=kraken",
+          "title": "BTCUSD Historical Prices — ChartExchange",
+          "published_at": null,
+          "finding": "Completed composite UTC candles: BTC November 3 close $77,336.75; November 10 close $73,697.87, low $72,643.48 and volume 14,318 BTC. Calculations from 20 closes through November 10 give SMA7 $75,953.36, SMA20 $78,079.23 and 19-return sample daily log volatility 2.07%. The requested Kraken-filtered URL displayed composite data, so these are explicitly not verified Kraken candles."
+        },
+        {
+          "id": "web-researcher_b-2",
+          "url": "https://coinlab.info/en/d/2026-11-11-us.html",
+          "title": "Bitcoin Today, Nov 11, 2026: Daily Brief and Outlook — CoinLab",
+          "published_at": "2026-11-11T13:45:00Z",
+          "finding": "Brief explicitly compiled November 11 at 08:45 AM ET, before cutoff. It reported weak BTC weekly performance, a November 10 post-inflation low near $72,727, and approximately $1.31bn rolling Binance BTC/USDT spot turnover. These are secondary research observations and neither Kraken USD daily volume nor execution prices."
+        },
+        {
+          "id": "web-researcher_b-3",
+          "url": "https://www.sectoralpha.in/crypto-market-this-week",
+          "title": "Crypto Market This Week: Bitcoin −4.5% (8 Nov 2026) — Sector Alpha",
+          "published_at": null,
+          "finding": "The opened page's dated November 8 snapshot reported BTC down 4.5%, ETH down 6.5%, 60 of 347 coins rising and a median decline of 7.1%. It identified ICNT, AIOT and RSR among gainers, providing discovery leads rather than evidence of Kraken eligibility. A newer search snippet disagreed with the opened snapshot; only the dated opened observations were used."
+        },
+        {
+          "id": "web-researcher_b-4",
+          "url": "https://coincodex.com/crypto/internet-computer/historical-data/",
+          "title": "Internet Computer (ICP) Historical Data — CoinCodex",
+          "published_at": null,
+          "finding": "Aggregate ICP completed November 10 period: open $2.39, high $2.55, low $2.34, close $2.54 and USD volume $27.92m. November 9 volume was $34.22m; November 3 close $2.55 and November 4 close $2.62. Seven closes through November 10 average $2.44857. Aggregate turnover is not Kraken pair-level volume."
+        },
+        {
+          "id": "web-researcher_b-5",
+          "url": "https://twelvedata.com/markets/952296/crypto/coinbase-pro/icp-usd/historical-data",
+          "title": "Internet Computer to US Dollar Historical Data — Twelve Data",
+          "published_at": null,
+          "finding": "Coinbase ICP/USD historical table independently reported November 10 open $2.39, high $2.55, low $2.34 and close $2.53. November 3 close was approximately $2.50. Venue differences demonstrate why aggregate and exchange observations must not be treated as identical."
+        },
+        {
+          "id": "web-researcher_b-6",
+          "url": "https://uk.investing.com/crypto/hyperliquid/hype-usd-historical-data",
+          "title": "HYPE to USD Historical Data — Investing.com",
+          "published_at": null,
+          "finding": "HYPE spot-vendor November 10 completed row showed close $72.321, high $75.372, low $70.399 and a 3.77% decline. The wide range and falling price weaken a stable-momentum interpretation. Reported volume units were not assumed to be USD, and partial November 11 observations were excluded."
+        },
+        {
+          "id": "web-researcher_b-7",
+          "url": "https://chartexchange.com/symbol/crypto-trxusd/historical/",
+          "title": "TRXUSD Historical Prices — ChartExchange",
+          "published_at": null,
+          "finding": "TRX composite historical rows showed November 3 close $0.3223 and November 10 close $0.3180 with 115,910 TRX reported volume. This implies approximately -1.33% price change and a $36,859 close-times-units turnover proxy. It supports provisional relative resilience but does not establish Kraken liquidity."
+        },
+        {
+          "id": "web-researcher_b-8",
+          "url": "https://finance.yahoo.com/quote/XMR-USD/history/",
+          "title": "Monero USD Price History — Yahoo Finance",
+          "published_at": null,
+          "finding": "Completed XMR daily rows showed November 4 close $641.60 and November 10 close $562.28, with a November 10 range of $541.59–$586.52 and reported USD volume $168.95m. This indicates deteriorating absolute momentum and substantial intraday range; partial November 11 data were excluded."
+        }
+      ],
+      "web_search_mode": "live",
+      "web_activity": {
+        "completed_calls": 10,
+        "calls": [
+          {
+            "type": "search",
+            "query": "crypto market November 11 2026 bitcoin price altcoins"
+          },
+          {
+            "type": "search",
+            "queries": [
+              "HYPE ICP XMR November 11 2026 price volume technical analysis",
+              "site.coindesk.com \"2026/11/11\" crypto",
+              "Kraken HYPE USD November 11 2026 historical data price"
+            ]
+          },
+          {
+            "type": "open_page",
+            "url": "https://chartexchange.com/symbol/crypto-btcusd/historical/?exchange=kraken"
+          },
+          {
+            "type": "open_page",
+            "url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440"
+          },
+          {
+            "type": "other"
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.chartexchange.com/symbol/crypto-trxusd/historical \"2026-11-10\"",
+              "site.chartexchange.com/symbol/crypto-rsrusd/historical \"2026-11-10\"",
+              "site.chartexchange.com/symbol/crypto-icpusd/historical \"2026-11-10\"",
+              "site.chartexchange.com/symbol/crypto-xmrusd/historical \"2026-11-10\""
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "Monero November 11 2026 price November 10 volume historical data",
+              "site.chartexchange.com/symbol/crypto-xmrusd/historical/ \"2026-11-10\" \"2026-11-03\"",
+              "site.chartexchange.com/symbol/crypto-icpusd/historical \"2026-11-10\" \"2026-11-03\"",
+              "TRON November 11 2026 volume Kraken USD"
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "TRON historical data \"Nov 10, 2026\" \"Vol.\" \"Nov 03\"",
+              "Reserve Rights historical data \"Nov 10, 2026\" \"Nov 03, 2026\"",
+              "Internet Computer historical data \"Nov 10, 2026\" \"Nov 03, 2026\"",
+              "site.chartexchange.com/symbol/crypto-trxusd/historical/ \"2026-10-25\" \"2026-10-22\""
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.coincodex.com/crypto/internet-computer/historical-data/ \"Nov 09, 2026\" \"Nov 08, 2026\"",
+              "site.coincodex.com/crypto/internet-computer/historical-data/ \"Nov 04, 2026\" \"Nov 05, 2026\""
+            ]
+          },
+          {
+            "type": "search",
+            "queries": [
+              "site.kraken.com/prices/internet-computer \"USD\"",
+              "site.kraken.com/prices/bitcoin \"USD\""
+            ]
+          }
+        ],
+        "event_stream_sha256": "9772d8b925f1353fa1433ab7aef843a93c8eb918a3b8822e121f792ccbd06bc9",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:manager",
+      "role": "manager",
+      "purpose": "DECISION",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v1",
+        "overlay_version": 2,
+        "lesson_ids": [
+          "crypto-paper-2026-10-28-2026-10-28:patch:2",
+          "crypto-paper-2026-10-28-2026-11-04:patch:2"
+        ],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-11-04",
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-11T14:40:41.461983+00:00",
+        "estimated_tokens": 10862,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 255,
+          "overlay": 762,
+          "current": 8793,
+          "recent": 590,
+          "older": 11,
+          "contract": 432
+        },
+        "reductions": []
+      },
+      "prompt_hash": "43660e8907601529f5881ab69ae735c943610e453673db80f5fbbccbe29b898d",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nFor this DECISION task, use only supplied records. Web browsing is disabled for this purpose.\nYou are manager, Casey, selecting one cryptocurrency for the PAPER / SIMULATED firm. Review both independent research reports and every proposal. Select exactly ONE eligible submitted proposal for a Wednesday-to-next-Wednesday holding period. Allocate the full available cash to that one proposal (amount=cash, percent=1, retained_cash=0), with execution costs included inside that budget. Fractional units round down to 8 decimals. Reject all other proposals with specific reasons; duplicate tickers from both researchers still require choosing only one proposal. The same crypto as last week is allowed, but the prior position is sold and reviewed first, and a new purchase is recorded.\n\nOnly choose tickers in eligible_discovered_tickers when provided. If no eligible proposal exists, hold cash and explain the data or research failure. Never force an unsupported purchase. Respect any stricter su",
+      "research_summary": "",
+      "abstention_reason": null,
+      "investigated_tickers": [],
+      "sources": [],
+      "web_search_mode": "disabled",
+      "web_activity": {
+        "completed_calls": 0,
+        "calls": [],
+        "event_stream_sha256": "a06855ec3e62747932f80391c096fd5a21330727b25c37729801eacaba033f1c",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:entry",
+      "kind": "entry",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-11T14:37:13.350251+00:00",
+      "evidence": []
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:discovery",
+      "kind": "discovery",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-11T14:40:41.461983+00:00",
+      "evidence": [
+        {
+          "id": "discovery:BTC:2026-11-11T14:40:41.461983+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-11T14:40:39.128667+00:00",
+          "price": "73650.50000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:HYPE:2026-11-11T14:40:41.461983+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-11-11T14:40:39.248741+00:00",
+          "price": "73.110000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "discovery:SOL:2026-11-11T14:40:41.461983+00:00",
+          "ticker": "SOL",
+          "observed_at": "2026-11-11T14:40:34.781450+00:00",
+          "price": "84.27000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:entry-execution",
+      "kind": "entry-execution",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-11T14:41:23.658101+00:00",
+      "evidence": [
+        {
+          "id": "entry:BTC:2026-11-11T14:41:23.658101+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-11T14:41:22.299747+00:00",
+          "price": "73567.40000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    }
+  ],
+  "fills": [
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:BUY:BTC",
+      "ticker": "BTC",
+      "quantity": "0.01053749",
+      "price": "73714.53480000",
+      "fee": "0E-8",
+      "side": "BUY",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-11T14:41:22.299747+00:00",
+      "fill_time": "2026-11-11T14:41:22.299747+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "73567.40000"
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "MARKET_PACKET",
+      "completed_at": "2026-11-11T14:37:14.214275+00:00"
+    },
+    {
+      "stage": "PURCHASES",
+      "completed_at": "2026-11-11T14:41:24.046396+00:00"
+    }
+  ],
+  "meeting_ids": []
+}

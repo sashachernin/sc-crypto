@@ -1,11 +1,19 @@
 [
   {
-    "id": "crypto-paper-2026-10-28-2026-11-04",
-    "wednesday": "2026-11-04",
+    "id": "crypto-paper-2026-10-28-2026-11-11",
+    "wednesday": "2026-11-11",
     "status": "OPEN",
     "pnl": null,
     "proposal_count": 4,
     "review_available": false
+  },
+  {
+    "id": "crypto-paper-2026-10-28-2026-11-04",
+    "wednesday": "2026-11-04",
+    "status": "COMPLETED",
+    "pnl": "-277.26",
+    "proposal_count": 4,
+    "review_available": true
   },
   {
     "id": "crypto-paper-2026-10-28-2026-10-28",

@@ -1,7 +1,7 @@
 {
   "id": "crypto-paper-2026-10-28-2026-11-04",
   "wednesday": "2026-11-04",
-  "status": "OPEN",
+  "status": "COMPLETED",
   "label": "PAPER / SIMULATED",
   "data": {
     "research_scope": "kraken_usd_spot_crypto",
@@ -32,8 +32,61 @@
       "calendar",
       "ledger reconciliation"
     ],
-    "current_equity": "833.16",
-    "current_pnl": "-220.86"
+    "pnl": "-277.26",
+    "pnl_precise": "-277.26153706",
+    "ending_equity": "776.77",
+    "exit_cutoff": "2026-11-11T14:35:04.898871+00:00",
+    "comparisons": [
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+        "ticker": "ZEC",
+        "expected_return": 0.025,
+        "observed_return": -0.2544427670449756,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+        "ticker": "HYPE",
+        "expected_return": 0.025,
+        "observed_return": -0.15117778038204618,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+        "ticker": "UNI",
+        "expected_return": 0.02,
+        "observed_return": -0.12697981840637343,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      },
+      {
+        "proposal_id": "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+        "ticker": "BTC",
+        "expected_return": 0.01,
+        "observed_return": -0.06804923575806016,
+        "label": "HYPOTHETICAL matched-window raw-price comparison"
+      }
+    ],
+    "benchmark_return": "-0.0680492357580601507772027309",
+    "extended_holding": false,
+    "summary": "Riley's review: the completed PAPER / SIMULATED ZEC holding lost $277.26153706, approximately 26.3049% of starting equity, leaving rounded equity of $776.77. Selected ZEC was the worst of the four proposals on supplied matched-window raw prices. The central improvement is to compare event-backed upside with downside and market-regime dependence more explicitly before committing the mandated single-asset exposure.\n\nAt entry, ZEC had the strongest documented within-week protocol milestone, released supporting software and eligible fresh market data. The manager also recognized implementation risk, public-information pricing and speculative demand. Those qualifications were sound. The realized price decline contradicted the appreciation forecast and exceeded the stated adverse scenario; it does not establish that NU7 failed or that source research was wrong.\n\nForecasting was weaker than research documentation across both researchers: every proposal forecast a positive return, while every comparable asset declined. Selection added substantial underperformance relative to BTC, but hindsight alone cannot prove the entry choice irrational. Full deployment transmitted almost all selected-asset exposure to the portfolio. Retained cash was only rounding dust and offered no material cushion; concentration was mandated rather than a discretionary sizing error. Recorded execution costs explain a small, separately measurable portion of the loss.\n\nThree four-week lessons preserve successful sourcing, signal separation and reconciliation practices while improving event-demand scenarios, shared-regime assumptions and comparative downside reasoning. No probability thresholds, trading rules or base-contract terms change.",
+    "learning_results": [
+      {
+        "id": "crypto-paper-2026-10-28-2026-11-04:patch:0",
+        "status": "ACTIVE",
+        "errors": []
+      },
+      {
+        "id": "crypto-paper-2026-10-28-2026-11-04:patch:1",
+        "status": "ACTIVE",
+        "errors": []
+      },
+      {
+        "id": "crypto-paper-2026-10-28-2026-11-04:patch:2",
+        "status": "ACTIVE",
+        "errors": []
+      }
+    ],
+    "review_status": "AVAILABLE"
   },
   "proposals": [
     {
@@ -225,7 +278,148 @@
     ],
     "uncertainty": "The 2.5% gross forecast, 53% profit probability and 0.56 confidence are subjective and uncalibrated. Activation timing, incremental demand and market reaction remain uncertain. Research and engine series differ and are not interchangeable. The records do not specify whether spread is charged fully or halved; sizing and net-return illustrations explicitly use the conservative full-spread assumption and require reconciliation under the execution model."
   },
-  "review": null,
+  "review": {
+    "summary": "Riley's review: the completed PAPER / SIMULATED ZEC holding lost $277.26153706, approximately 26.3049% of starting equity, leaving rounded equity of $776.77. Selected ZEC was the worst of the four proposals on supplied matched-window raw prices. The central improvement is to compare event-backed upside with downside and market-regime dependence more explicitly before committing the mandated single-asset exposure.\n\nAt entry, ZEC had the strongest documented within-week protocol milestone, released supporting software and eligible fresh market data. The manager also recognized implementation risk, public-information pricing and speculative demand. Those qualifications were sound. The realized price decline contradicted the appreciation forecast and exceeded the stated adverse scenario; it does not establish that NU7 failed or that source research was wrong.\n\nForecasting was weaker than research documentation across both researchers: every proposal forecast a positive return, while every comparable asset declined. Selection added substantial underperformance relative to BTC, but hindsight alone cannot prove the entry choice irrational. Full deployment transmitted almost all selected-asset exposure to the portfolio. Retained cash was only rounding dust and offered no material cushion; concentration was mandated rather than a discretionary sizing error. Recorded execution costs explain a small, separately measurable portion of the loss.\n\nThree four-week lessons preserve successful sourcing, signal separation and reconciliation practices while improving event-demand scenarios, shared-regime assumptions and comparative downside reasoning. No probability thresholds, trading rules or base-contract terms change.",
+    "scorecards": [
+      {
+        "role": "researcher_a",
+        "score": 0.76,
+        "assessment": "Strong primary-source NU7 research distinguished deployment readiness, temporary reserve accounting and speculative demand, and disclosed adverse price evidence. Forecast support was weaker: incremental weekly buying was unquantified and the selected asset lost more than its adverse scenario. The loss does not establish faulty sourcing or failed activation."
+      },
+      {
+        "role": "researcher_b",
+        "score": 0.78,
+        "assessment": "Carefully separated calculated trends, vendor indicators, turnover and execution eligibility. Explicit thresholds helped the manager identify HYPE deterioration. All three positive forecasts failed, and the shared stabilization assumption deserves clearer scenario treatment. BTC's smaller loss supports its fallback description only within this window."
+      },
+      {
+        "role": "manager",
+        "score": 0.69,
+        "assessment": "Reviewed all proposals, used fresh quotes, rejected weakened signals, disclosed concentration and costs, and reconciled sizing through fills. Selection nevertheless chose the worst matched-window asset. The rationale emphasized a documented event and modest upside differences without sufficiently resolving the downside tradeoff against BTC. Mandated full funding was executed correctly."
+      }
+    ],
+    "forecast_comparisons": [
+      "ZEC: +2.5% gross forecast versus -25.4443% discovery-to-exit, a -27.9443 percentage-point error. Actual execution-observation holding return was approximately -26.0096%, with net portfolio return approximately -26.3049%. The -20% adverse scenario was exceeded; it was explicitly not a loss limit. Appreciation failed, but the records do not establish NU7's eventual activation status or causal price impact.",
+      "HYPE: +2.5% forecast versus -15.1178% matched-window raw return, a -17.6178 percentage-point error. Entry relative strength had already weakened below the proposal threshold; exit $72.43 was also below its SMA20 and support references. BTC stabilization failed. The -15% adverse scenario was slightly exceeded; no confirmed token sales can be inferred.",
+      "UNI: +2% forecast versus -12.6980% matched-window raw return, a -14.6980 percentage-point error. Entry preserved the moving-average recovery but lacked breakout and turnover confirmation. Supplied subsequent closes below $6.83 contradicted recovery support. The result remained within the -18% adverse scenario.",
+      "BTC: +1% forecast versus -6.8049% matched-window raw return, a -7.8049 percentage-point error. Entry liquidity and lower historical volatility supported its fallback role, while weak trend evidence qualified appreciation. Subsequent supplied closes below $75,115 contradicted support recovery. Its -8% adverse scenario encompassed the endpoint loss."
+    ],
+    "selected_vs_rejected": "Using supplied discovery-to-exit raw-price comparisons, selected ZEC returned -25.4443%, versus rejected HYPE -15.1178%, UNI -12.6980% and BTC -6.8049%. ZEC trailed them by 10.3265, 12.7463 and 18.6394 percentage points respectively. Thus every priced rejected proposal preserved more value over the comparison window, although none appreciated. HYPE's weakened relative strength and UNI's unconfirmed breakout justified caution at entry; their losses do not vindicate choosing ZEC over them. BTC's weak trend explained its rejection, but its smaller realized loss highlights the cost of preferring event-driven upside over the documented lower-volatility fallback. These comparisons exclude hypothetical trading costs. No outcome ranking is inferred for investigated assets without comparable supplied prices.",
+    "execution_effects": "Reconciled fills bought and sold 0.80000305 ZEC. Raw execution observations fell $1,314.90 to $972.90, approximately -26.0096%; modeled prices were $1,317.5298 and $970.9542. Raw-price loss on filled units was $273.60104310; spread/slippage added $3.66049396, producing the recorded $277.26153706 loss. Fees were zero. Cash movements reconcile: $1,054.02785847 spent, $776.76632141 received, with $0.00000810 dust retained. Discovery-to-entry appreciation of approximately 0.764% was quote movement, separate from modeled costs. Provisional sizing was correctly superseded by actual fills.",
+    "error_categories": [
+      "Positive-return forecasts contradicted by realized prices",
+      "Catalyst evidence stronger than incremental-demand evidence",
+      "Weak-regime assumptions failed",
+      "Selection favored upside estimates over downside differentiation",
+      "Discovery-to-execution price drift"
+    ],
+    "successes": [
+      "Researcher A verified deployment specifications and released software while explicitly separating protocol utility, reserve accounting and speculative holder demand.",
+      "Researcher B supplied falsifiable signal thresholds and distinguished relative strength from absolute trend and turnover; the manager correctly recognized fresh HYPE deterioration.",
+      "The manager treated uncertain HYPE distributions as risk rather than confirmed selling and did not extrapolate the prior profitable HYPE outcome into a persistent edge.",
+      "The completed Wednesday sale, cost-inclusive funding, fractional quantity and reconciled cash ledger followed the fixed mandate."
+    ],
+    "weaknesses": [
+      "A concrete deployment milestone provided stronger evidence of an event than of incremental seven-day buying; the positive ZEC forecast depended on that unresolved bridge.",
+      "All positive forecasts depended on recovery or stabilization despite weak broader trend evidence, making shared downside assumptions consequential.",
+      "The manager disclosed adverse scenarios but gave limited comparative justification for accepting ZEC's -20% scenario over BTC's -8% scenario for 1.5 percentage points of additional forecast gross upside.",
+      "ZEC's execution-observation price was higher than discovery, further increasing entry extension; this movement should remain distinct from the correctly modeled execution charges."
+    ],
+    "limitations": "One current holding and one recent completed winner form a very small sample. Hindsight identifies the better realized alternative but cannot establish the optimal ex ante choice, a durable edge, probability calibration or scenario coverage. Supplied records do not establish post-entry NU7 status, employment-release details or actual HYPE distributions, so causal attribution remains unresolved. Research/vendor series differ from engine prices. Rejected returns use discovery-to-exit observations, not executable counterfactual fills; selected execution began slightly later. Scores assess documented process judgmentally.",
+    "evidence_ids": [
+      "crypto-paper-2026-10-28-2026-11-04:researcher_a",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+      "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+      "crypto-paper-2026-10-28-2026-11-04:manager",
+      "crypto-paper-2026-10-28-2026-11-04:BUY:ZEC",
+      "crypto-paper-2026-10-28-2026-11-04:SELL:ZEC",
+      "discovery:ZEC:2026-11-04T14:40:14.556027+00:00",
+      "discovery:HYPE:2026-11-04T14:40:14.556027+00:00",
+      "discovery:UNI:2026-11-04T14:40:14.556027+00:00",
+      "discovery:BTC:2026-11-04T14:40:14.556027+00:00",
+      "entry:ZEC:2026-11-04T14:41:40.188821+00:00",
+      "exit:ZEC:2026-11-11T14:35:17.802712+00:00",
+      "exit:HYPE:2026-11-11T14:35:17.802712+00:00",
+      "exit:UNI:2026-11-11T14:35:17.802712+00:00",
+      "exit:BTC:2026-11-11T14:35:17.802712+00:00",
+      "web-researcher_a-1",
+      "web-researcher_a-2",
+      "web-researcher_a-3",
+      "web-researcher_a-4",
+      "web-researcher_b-1",
+      "web-researcher_b-3"
+    ],
+    "patches": [
+      {
+        "target": "researcher_a",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "For event proposals, retain primary deployment, software and readiness checks. Separately state what is verified about the event and what evidence supports incremental token demand during the holding week. Include both delayed activation and successful activation with flat or falling price; explain how these scenarios inform the return estimate and adverse scenario. ZEC's documented milestone supported research quality, while its price loss contradicted appreciation without establishing event failure.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+          "web-researcher_a-1",
+          "web-researcher_a-2",
+          "web-researcher_a-3",
+          "discovery:ZEC:2026-11-04T14:40:14.556027+00:00",
+          "exit:ZEC:2026-11-11T14:35:17.802712+00:00"
+        ],
+        "confidence": 0.83,
+        "expected_effect": "Preserve strong primary-source event research while making the speculative demand bridge and timing dependence easier to compare with price risk.",
+        "duration_weeks": 4,
+        "success_metric": "Next four reports with event proposals distinguish event verification from demand evidence and include delayed-event and successful-event-with-selling scenarios.",
+        "rollback_condition": "Revise or retire if the template creates unsupported numerical precision or repeatedly duplicates evidence without clarifying the demand assumption.",
+        "expiry": "2026-12-09"
+      },
+      {
+        "target": "researcher_b",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "Retain the useful separation of relative strength, absolute trend and turnover. For proposals relying on BTC stabilization, give a compact stabilization-versus-renewed-weakness scenario comparison and explain how the unconditional gross forecast reflects both. State whether fresh threshold deterioration weakens ranking or merely calls for further verification. All three positive forecasts failed this week; that supports examining shared assumptions, not mechanically lowering probabilities from one observation.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-11-04:researcher_b",
+          "crypto-paper-2026-10-28-2026-11-04:researcher_b:1",
+          "crypto-paper-2026-10-28-2026-11-04:researcher_b:2",
+          "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+          "exit:BTC:2026-11-11T14:35:17.802712+00:00",
+          "exit:HYPE:2026-11-11T14:35:17.802712+00:00"
+        ],
+        "confidence": 0.81,
+        "expected_effect": "Make common market dependence visible across apparently different technical proposals while preserving explicit signal tests.",
+        "duration_weeks": 4,
+        "success_metric": "Next four reports identify shared BTC assumptions and explain each proposal's return case under stabilization and renewed weakness.",
+        "rollback_condition": "Revise if conditional scenarios are presented as calibrated probabilities or obscure the required unconditional forecast.",
+        "expiry": "2026-12-09"
+      },
+      {
+        "target": "manager",
+        "operation": "add",
+        "lesson_id": null,
+        "text": "Before selection, explicitly compare the leading proposal's cost-adjusted upside and adverse scenario with the strongest eligible lower-risk alternative, explaining why the incremental upside evidence warrants the downside difference. Keep concentration imposed by the mandate separate from selection quality. Preserve cost-inclusive sizing and reconcile discovery-to-fill quote movement separately from spread/slippage. ZEC's +2.5% versus BTC's +1% forecast alone did not settle the disclosed -20% versus -8% scenario tradeoff.",
+        "parameter": null,
+        "value": null,
+        "evidence_ids": [
+          "crypto-paper-2026-10-28-2026-11-04:manager",
+          "crypto-paper-2026-10-28-2026-11-04:researcher_a:1",
+          "crypto-paper-2026-10-28-2026-11-04:researcher_b:3",
+          "discovery:ZEC:2026-11-04T14:40:14.556027+00:00",
+          "entry:ZEC:2026-11-04T14:41:40.188821+00:00",
+          "crypto-paper-2026-10-28-2026-11-04:BUY:ZEC"
+        ],
+        "confidence": 0.84,
+        "expected_effect": "Expose why a modest upside advantage warrants the chosen downside exposure and prevent quote movement from being confused with execution costs.",
+        "duration_weeks": 4,
+        "success_metric": "Next four decisions compare cost-adjusted upside, adverse scenarios and evidence quality; reconciliations separately report quote drift and modeled costs.",
+        "rollback_condition": "Revise if comparison implies scenario losses are caps, imposes mechanical risk ratios, or conflicts with the fixed single-asset Wednesday mandate.",
+        "expiry": "2026-12-09"
+      }
+    ]
+  },
   "runs": [
     {
       "id": "crypto-paper-2026-10-28-2026-11-04:researcher_a",
@@ -605,6 +799,47 @@
         "event_stream_sha256": "6b68d49df569afc56609ba6996f897a01f4f2725f981a6836e74dcce6c890ce0",
         "verification": "observed Codex item.completed web_search events; source claims are model reports"
       }
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:analyst",
+      "role": "analyst",
+      "purpose": "REVIEW",
+      "status": "COMPLETED",
+      "manifest": {
+        "base_prompt": "v2-complete-evidence",
+        "overlay_version": 0,
+        "lesson_ids": [],
+        "recent_week_ids": [
+          "crypto-paper-2026-10-28-2026-10-28"
+        ],
+        "cutoff": "2026-11-11T14:35:17.802712+00:00",
+        "estimated_tokens": 12298,
+        "estimator": "o200k_base-or-utf8-upper-bound",
+        "section_sizes": {
+          "rules": 434,
+          "overlay": 32,
+          "current": 10779,
+          "recent": 255,
+          "older": 11,
+          "contract": 770
+        },
+        "reductions": []
+      },
+      "prompt_hash": "db29b60a1a910548651e954ba8bfae1f67cd395fb0eb7ac49f7b2238803b87cc",
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "prompt_excerpt": "RULES\nFor this REVIEW task, use only supplied records. Web browsing is disabled for this purpose.\nYou are analyst, Riley. Review reconciled PAPER / SIMULATED outcomes before proposing bounded learning. Evaluate research, forecasting, selection, sizing and execution separately. Use selected and rejected matched-window comparisons; distinguish missing evidence from mistakes. Explicitly state small sample and hindsight limitations. Propose evidence-linked, expiring lessons only for researchers or manager. No tools, trading, credentials or base-contract changes. Return only the supplied JSON contract.\n\nUse the supplied finalized research reports, source findings, proposals, actual manager decision, entry/exit observations, fills, execution costs and cash movements. Analyze each thesis and forecast against the realized holding window; explain what supported the choice at entry, what the outcome contradicted, and what cannot be inferred. Attribute portfolio results to exposure, retained cash",
+      "research_summary": "",
+      "abstention_reason": null,
+      "investigated_tickers": [],
+      "sources": [],
+      "web_search_mode": "disabled",
+      "web_activity": {
+        "completed_calls": 0,
+        "calls": [],
+        "event_stream_sha256": "d6d5080f8de9a7c83010fffceea4457dd3bf43fee43af6f6e967a864ec61cd03",
+        "verification": "observed Codex item.completed web_search events; source claims are model reports"
+      }
     }
   ],
   "snapshots": [
@@ -770,6 +1005,42 @@
           "redistribution": "metadata only; verify provider terms"
         }
       ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:exit",
+      "kind": "exit",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-11T14:35:17.802712+00:00",
+      "evidence": [
+        {
+          "id": "exit:BTC:2026-11-11T14:35:17.802712+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-11T14:35:16.081666+00:00",
+          "price": "73343.50000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:HYPE:2026-11-11T14:35:17.802712+00:00",
+          "ticker": "HYPE",
+          "observed_at": "2026-11-11T14:35:17.075925+00:00",
+          "price": "72.430000",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:UNI:2026-11-11T14:35:17.802712+00:00",
+          "ticker": "UNI",
+          "observed_at": "2026-11-11T14:34:46.466820+00:00",
+          "price": "6.43250",
+          "redistribution": "metadata only; verify provider terms"
+        },
+        {
+          "id": "exit:ZEC:2026-11-11T14:35:17.802712+00:00",
+          "ticker": "ZEC",
+          "observed_at": "2026-11-11T14:35:17.618113+00:00",
+          "price": "972.90000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
     }
   ],
   "fills": [
@@ -786,6 +1057,22 @@
       "fill_time": "2026-11-04T14:41:40.056830+00:00",
       "fill_model": "spread-slippage-v1",
       "raw_price": "1314.90000"
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-04:SELL:ZEC",
+      "ticker": "ZEC",
+      "quantity": "0.80000305",
+      "price": "970.95420000",
+      "fee": "0E-8",
+      "side": "SELL",
+      "label": "PAPER / SIMULATED",
+      "provider": "kraken-public",
+      "observation_time": "2026-11-11T14:35:17.618113+00:00",
+      "fill_time": "2026-11-11T14:35:17.618113+00:00",
+      "fill_model": "spread-slippage-v1",
+      "raw_price": "972.90000",
+      "cost_basis_sold": "1054.02785847",
+      "realized_pnl": "-277.26153706"
     }
   ],
   "timeline": [
@@ -796,6 +1083,14 @@
     {
       "stage": "PURCHASES",
       "completed_at": "2026-11-04T14:41:40.867511+00:00"
+    },
+    {
+      "stage": "LIQUIDATION",
+      "completed_at": "2026-11-11T14:35:18.962569+00:00"
+    },
+    {
+      "stage": "REVIEW",
+      "completed_at": "2026-11-11T14:37:13.291246+00:00"
     }
   ],
   "meeting_ids": []
