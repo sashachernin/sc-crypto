@@ -1,11 +1,11 @@
 {
-  "observed_at": "2026-11-11T14:41:24.276484+00:00",
+  "observed_at": "2026-11-11T17:45:05.409496+00:00",
   "paused": false,
   "worker_status": "Snapshot observation; live status available only through Linux CLI",
   "queue": {
-    "QUEUED": 2,
-    "RUNNING": 1,
-    "COMPLETED": 7,
+    "QUEUED": 0,
+    "RUNNING": 0,
+    "COMPLETED": 10,
     "FAILED": 0
   },
   "incidents": [],
@@ -135,6 +135,15 @@
         "trades": false
       },
       "created_at": "2026-11-10T17:45:09.516569+00:00"
+    },
+    {
+      "action": "daily-valuation",
+      "data": {
+        "day": "2026-11-11",
+        "cutoff": "2026-11-11T17:45:04.433427+00:00",
+        "trades": false
+      },
+      "created_at": "2026-11-11T17:45:05.313202+00:00"
     }
   ],
   "settings": {
@@ -178,7 +187,7 @@
     }
   },
   "previous_delivery": {
-    "snapshot_id": "crypto-paper-2026-10-28-r27",
+    "snapshot_id": "crypto-paper-2026-10-28-r35",
     "status": "VALIDATED"
   }
 }
