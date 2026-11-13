@@ -32,8 +32,8 @@
       "calendar",
       "ledger reconciliation"
     ],
-    "current_equity": "755.11",
-    "current_pnl": "-21.66"
+    "current_equity": "727.07",
+    "current_pnl": "-49.70"
   },
   "proposals": [
     {
@@ -700,6 +700,21 @@
           "ticker": "BTC",
           "observed_at": "2026-11-12T17:45:04.297580+00:00",
           "price": "71659.30000",
+          "redistribution": "metadata only; verify provider terms"
+        }
+      ]
+    },
+    {
+      "id": "crypto-paper-2026-10-28-2026-11-11:valuation:2026-11-13",
+      "kind": "valuation-2026-11-13",
+      "provider": "kraken-public",
+      "cutoff": "2026-11-13T17:45:04.348813+00:00",
+      "evidence": [
+        {
+          "id": "valuation:BTC:2026-11-13T17:45:04.348813+00:00",
+          "ticker": "BTC",
+          "observed_at": "2026-11-13T17:45:03.287830+00:00",
+          "price": "68998.50000",
           "redistribution": "metadata only; verify provider terms"
         }
       ]
